@@ -1,0 +1,313 @@
+[0.178s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.178s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d272ebf4980>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d272ebf3e30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d272ebf3e30>>, mixin_verb=('build',))
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.216s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nijin26/ros2_ws'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_cpp) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_cpp) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_cpp) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_cpp) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_cpp) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_cpp) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_cpp) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_cpp) by extension 'ros'
+[0.252s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg_template_cpp' with type 'ros.ament_cmake' and name 'pkg_template_cpp'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_multi_language) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_multi_language) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_multi_language) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_multi_language) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_multi_language) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_multi_language) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_multi_language) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_multi_language) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_multi_language) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg_template_multi_language' with type 'ros.ament_cmake' and name 'pkg_template_multi_language'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_py) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_py) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_py) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_py) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_py) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_py) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_py) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_py) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_template_py) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg_template_py' with type 'ros.ament_python' and name 'pkg_template_py'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_udemy_course) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_udemy_course) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_udemy_course) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_udemy_course) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_udemy_course) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_udemy_course) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_udemy_course) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_udemy_course) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_udemy_course) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg_udemy_course' with type 'ros.ament_python' and name 'pkg_udemy_course'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2jazzy_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2jazzy_opencv) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2jazzy_opencv) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2jazzy_opencv) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2jazzy_opencv) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2jazzy_opencv) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2jazzy_opencv) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2jazzy_opencv) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2jazzy_opencv) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2jazzy_opencv' with type 'ros.ament_python' and name 'ros2jazzy_opencv'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[0.258s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.282s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/nijin26/ros2_ws/install
+[0.283s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/nijin26/microros_ws/install
+[0.284s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/jazzy
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_cpp' build argument 'cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_cpp' build argument 'cmake_target' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.333s] DEBUG:colcon.colcon_core.verb:Building package 'pkg_template_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nijin26/ros2_ws/build/pkg_template_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nijin26/ros2_ws/install/pkg_template_cpp', 'merge_install': False, 'path': '/home/nijin26/ros2_ws/src/pkg_template_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_multi_language' build argument 'cmake_args' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_multi_language' build argument 'cmake_target' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_multi_language' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_multi_language' build argument 'cmake_clean_cache' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_multi_language' build argument 'cmake_clean_first' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_multi_language' build argument 'cmake_force_configure' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_multi_language' build argument 'ament_cmake_args' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_multi_language' build argument 'catkin_cmake_args' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_multi_language' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.334s] DEBUG:colcon.colcon_core.verb:Building package 'pkg_template_multi_language' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nijin26/ros2_ws/build/pkg_template_multi_language', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nijin26/ros2_ws/install/pkg_template_multi_language', 'merge_install': False, 'path': '/home/nijin26/ros2_ws/src/pkg_template_multi_language', 'symlink_install': False, 'test_result_base': None}
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_py' build argument 'cmake_args' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_py' build argument 'cmake_target' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'pkg_template_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.334s] DEBUG:colcon.colcon_core.verb:Building package 'pkg_template_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nijin26/ros2_ws/build/pkg_template_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nijin26/ros2_ws/install/pkg_template_py', 'merge_install': False, 'path': '/home/nijin26/ros2_ws/src/pkg_template_py', 'symlink_install': False, 'test_result_base': None}
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'pkg_udemy_course' build argument 'cmake_args' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'pkg_udemy_course' build argument 'cmake_target' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'pkg_udemy_course' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'pkg_udemy_course' build argument 'cmake_clean_cache' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'pkg_udemy_course' build argument 'cmake_clean_first' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'pkg_udemy_course' build argument 'cmake_force_configure' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'pkg_udemy_course' build argument 'ament_cmake_args' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'pkg_udemy_course' build argument 'catkin_cmake_args' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'pkg_udemy_course' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.335s] DEBUG:colcon.colcon_core.verb:Building package 'pkg_udemy_course' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nijin26/ros2_ws/build/pkg_udemy_course', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nijin26/ros2_ws/install/pkg_udemy_course', 'merge_install': False, 'path': '/home/nijin26/ros2_ws/src/pkg_udemy_course', 'symlink_install': False, 'test_result_base': None}
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'ros2jazzy_opencv' build argument 'cmake_args' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'ros2jazzy_opencv' build argument 'cmake_target' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'ros2jazzy_opencv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'ros2jazzy_opencv' build argument 'cmake_clean_cache' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'ros2jazzy_opencv' build argument 'cmake_clean_first' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'ros2jazzy_opencv' build argument 'cmake_force_configure' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'ros2jazzy_opencv' build argument 'ament_cmake_args' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'ros2jazzy_opencv' build argument 'catkin_cmake_args' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'ros2jazzy_opencv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.335s] DEBUG:colcon.colcon_core.verb:Building package 'ros2jazzy_opencv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nijin26/ros2_ws/build/ros2jazzy_opencv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nijin26/ros2_ws/install/ros2jazzy_opencv', 'merge_install': False, 'path': '/home/nijin26/ros2_ws/src/ros2jazzy_opencv', 'symlink_install': False, 'test_result_base': None}
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.336s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nijin26/ros2_ws/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nijin26/ros2_ws/install/rplidar_ros', 'merge_install': False, 'path': '/home/nijin26/ros2_ws/src/rplidar_ros', 'symlink_install': False, 'test_result_base': None}
+[0.336s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.337s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.337s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nijin26/ros2_ws/src/pkg_template_cpp' with build type 'ament_cmake'
+[0.337s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nijin26/ros2_ws/src/pkg_template_cpp'
+[0.341s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.341s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.341s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.345s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nijin26/ros2_ws/src/pkg_template_multi_language' with build type 'ament_cmake'
+[0.346s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nijin26/ros2_ws/src/pkg_template_multi_language'
+[0.346s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.346s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.351s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nijin26/ros2_ws/src/pkg_template_py' with build type 'ament_python'
+[0.351s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_template_py', 'ament_prefix_path')
+[0.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nijin26/ros2_ws/install/pkg_template_py/share/pkg_template_py/hook/ament_prefix_path.ps1'
+[0.352s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nijin26/ros2_ws/install/pkg_template_py/share/pkg_template_py/hook/ament_prefix_path.dsv'
+[0.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nijin26/ros2_ws/install/pkg_template_py/share/pkg_template_py/hook/ament_prefix_path.sh'
+[0.354s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.354s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.359s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nijin26/ros2_ws/src/pkg_udemy_course' with build type 'ament_python'
+[0.359s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_udemy_course', 'ament_prefix_path')
+[0.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nijin26/ros2_ws/install/pkg_udemy_course/share/pkg_udemy_course/hook/ament_prefix_path.ps1'
+[0.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nijin26/ros2_ws/install/pkg_udemy_course/share/pkg_udemy_course/hook/ament_prefix_path.dsv'
+[0.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nijin26/ros2_ws/install/pkg_udemy_course/share/pkg_udemy_course/hook/ament_prefix_path.sh'
+[0.361s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.362s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.367s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nijin26/ros2_ws/src/ros2jazzy_opencv' with build type 'ament_python'
+[0.367s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2jazzy_opencv', 'ament_prefix_path')
+[0.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nijin26/ros2_ws/install/ros2jazzy_opencv/share/ros2jazzy_opencv/hook/ament_prefix_path.ps1'
+[0.369s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nijin26/ros2_ws/install/ros2jazzy_opencv/share/ros2jazzy_opencv/hook/ament_prefix_path.dsv'
+[0.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nijin26/ros2_ws/install/ros2jazzy_opencv/share/ros2jazzy_opencv/hook/ament_prefix_path.sh'
+[0.370s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.370s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.374s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nijin26/ros2_ws/src/rplidar_ros' with build type 'ament_cmake'
+[0.374s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nijin26/ros2_ws/src/rplidar_ros'
+[0.374s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.374s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nijin26/ros2_ws/build/pkg_template_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nijin26/ros2_ws/build/pkg_template_cpp -- -j12 -l12
+[0.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nijin26/ros2_ws/build/pkg_template_multi_language': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nijin26/ros2_ws/build/pkg_template_multi_language -- -j12 -l12
+[0.633s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nijin26/ros2_ws/src/pkg_template_py'
+[0.634s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.634s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.904s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nijin26/ros2_ws/src/pkg_udemy_course'
+[0.904s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.904s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.169s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nijin26/ros2_ws/src/ros2jazzy_opencv'
+[1.169s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.169s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nijin26/ros2_ws/build/pkg_template_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nijin26/ros2_ws/build/pkg_template_cpp -- -j12 -l12
+[1.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nijin26/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nijin26/ros2_ws/build/rplidar_ros -- -j12 -l12
+[1.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nijin26/ros2_ws/build/pkg_template_multi_language' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nijin26/ros2_ws/build/pkg_template_multi_language -- -j12 -l12
+[1.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nijin26/ros2_ws/build/pkg_template_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nijin26/ros2_ws/build/pkg_template_cpp
+[1.235s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_template_cpp)
+[1.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nijin26/ros2_ws/build/pkg_template_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nijin26/ros2_ws/build/pkg_template_cpp
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/nijin26/ros2_ws/install/pkg_template_cpp' for CMake module files
+[1.242s] Level 1:colcon.colcon_core.environment:checking '/home/nijin26/ros2_ws/install/pkg_template_cpp' for CMake config files
+[1.242s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_template_cpp', 'cmake_prefix_path')
+[1.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/hook/cmake_prefix_path.ps1'
+[1.243s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/hook/cmake_prefix_path.dsv'
+[1.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/hook/cmake_prefix_path.sh'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/nijin26/ros2_ws/install/pkg_template_cpp/lib'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/nijin26/ros2_ws/install/pkg_template_cpp/bin'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/nijin26/ros2_ws/install/pkg_template_cpp/lib/pkgconfig/pkg_template_cpp.pc'
+[1.245s] Level 1:colcon.colcon_core.environment:checking '/home/nijin26/ros2_ws/install/pkg_template_cpp/lib/python3.12/site-packages'
+[1.245s] Level 1:colcon.colcon_core.environment:checking '/home/nijin26/ros2_ws/install/pkg_template_cpp/bin'
+[1.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/package.ps1'
+[1.248s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/package.dsv'
+[1.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/package.sh'
+[1.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/package.bash'
+[1.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/package.zsh'
+[1.253s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nijin26/ros2_ws/install/pkg_template_cpp/share/colcon-core/packages/pkg_template_cpp)
+[1.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nijin26/ros2_ws/build/pkg_template_multi_language': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nijin26/ros2_ws/build/pkg_template_multi_language
+[1.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nijin26/ros2_ws/build/pkg_template_multi_language' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nijin26/ros2_ws/build/pkg_template_multi_language
+[1.289s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_template_cpp)
+[1.289s] Level 1:colcon.colcon_core.environment:checking '/home/nijin26/ros2_ws/install/pkg_template_cpp' for CMake module files
+[1.290s] Level 1:colcon.colcon_core.environment:checking '/home/nijin26/ros2_ws/install/pkg_template_cpp' for CMake config files
+[1.290s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_template_cpp', 'cmake_prefix_path')
+[1.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/hook/cmake_prefix_path.ps1'
+[1.292s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/hook/cmake_prefix_path.dsv'
+[1.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/hook/cmake_prefix_path.sh'
+[1.293s] Level 1:colcon.colcon_core.environment:checking '/home/nijin26/ros2_ws/install/pkg_template_cpp/lib'
+[1.293s] Level 1:colcon.colcon_core.environment:checking '/home/nijin26/ros2_ws/install/pkg_template_cpp/bin'
+[1.293s] Level 1:colcon.colcon_core.environment:checking '/home/nijin26/ros2_ws/install/pkg_template_cpp/lib/pkgconfig/pkg_template_cpp.pc'
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/nijin26/ros2_ws/install/pkg_template_cpp/lib/python3.12/site-packages'
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/nijin26/ros2_ws/install/pkg_template_cpp/bin'
+[1.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/package.ps1'
+[1.295s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/package.dsv'
+[1.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/package.sh'
+[1.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/package.bash'
+[1.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/package.zsh'
+[1.299s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nijin26/ros2_ws/install/pkg_template_cpp/share/colcon-core/packages/pkg_template_cpp)
+[1.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nijin26/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nijin26/ros2_ws/build/rplidar_ros -- -j12 -l12
+[1.312s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_template_multi_language)
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/nijin26/ros2_ws/install/pkg_template_multi_language' for CMake module files
+[1.313s] Level 1:colcon.colcon_core.environment:checking '/home/nijin26/ros2_ws/install/pkg_template_multi_language' for CMake config files
+[1.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_template_multi_language', 'cmake_prefix_path')
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/hook/cmake_prefix_path.ps1'
+[1.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/hook/cmake_prefix_path.dsv'
+[1.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/hook/cmake_prefix_path.sh'
+[1.317s] Level 1:colcon.colcon_core.environment:checking '/home/nijin26/ros2_ws/install/pkg_template_multi_language/lib'
+[1.317s] Level 1:colcon.colcon_core.environment:checking '/home/nijin26/ros2_ws/install/pkg_template_multi_language/bin'
+[1.317s] Level 1:colcon.colcon_core.environment:checking '/home/nijin26/ros2_ws/install/pkg_template_multi_language/lib/pkgconfig/pkg_template_multi_language.pc'
+[1.318s] Level 1:colcon.colcon_core.environment:checking '/home/nijin26/ros2_ws/install/pkg_template_multi_language/lib/python3.12/site-packages'
+[1.318s] Level 1:colcon.colcon_core.environment:checking '/home/nijin26/ros2_ws/install/pkg_template_multi_language/bin'
+[1.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/package.ps1'
+[1.320s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/package.dsv'
+[1.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/package.sh'
+[1.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/package.bash'
+[1.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/package.zsh'
+[1.323s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nijin26/ros2_ws/install/pkg_template_multi_language/share/colcon-core/packages/pkg_template_multi_language)
+[2.025s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.025s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.025s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[2.025s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.036s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.036s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.036s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.053s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.053s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nijin26/ros2_ws/install/local_setup.ps1'
+[2.054s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nijin26/ros2_ws/install/_local_setup_util_ps1.py'
+[2.055s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nijin26/ros2_ws/install/setup.ps1'
+[2.056s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nijin26/ros2_ws/install/local_setup.sh'
+[2.057s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nijin26/ros2_ws/install/_local_setup_util_sh.py'
+[2.063s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nijin26/ros2_ws/install/setup.sh'
+[2.064s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nijin26/ros2_ws/install/local_setup.bash'
+[2.065s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nijin26/ros2_ws/install/setup.bash'
+[2.066s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nijin26/ros2_ws/install/local_setup.zsh'
+[2.066s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nijin26/ros2_ws/install/setup.zsh'

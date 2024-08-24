@@ -1,0 +1,18 @@
+[100%] Built target node_template_cpp
+-- Install configuration: ""
+-- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/lib/pkg_template_cpp/node_template_cpp
+-- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/ament_index/resource_index/package_run_dependencies/pkg_template_cpp
+-- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/ament_index/resource_index/parent_prefix_path/pkg_template_cpp
+-- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/environment/path.sh
+-- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/environment/path.dsv
+-- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/local_setup.bash
+-- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/local_setup.sh
+-- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/local_setup.zsh
+-- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/local_setup.dsv
+-- Installing: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/package.dsv
+-- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/ament_index/resource_index/packages/pkg_template_cpp
+-- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/cmake/pkg_template_cppConfig.cmake
+-- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/cmake/pkg_template_cppConfig-version.cmake
+-- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/package.xml

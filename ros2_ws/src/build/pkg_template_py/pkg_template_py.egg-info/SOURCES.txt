@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+pkg_template_py/__init__.py
+pkg_template_py/node_template_py.py
+pkg_template_py.egg-info/PKG-INFO
+pkg_template_py.egg-info/SOURCES.txt
+pkg_template_py.egg-info/dependency_links.txt
+pkg_template_py.egg-info/entry_points.txt
+pkg_template_py.egg-info/requires.txt
+pkg_template_py.egg-info/top_level.txt
+pkg_template_py.egg-info/zip-safe
+resource/pkg_template_py

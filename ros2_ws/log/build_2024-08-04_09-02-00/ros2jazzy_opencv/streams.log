@@ -1,0 +1,60 @@
+[1.165s] Invoking command in '/home/nijin26/ros2_ws/src/ros2jazzy_opencv': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nijin26/ros2_ws/build/ros2jazzy_opencv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2jazzy_opencv build --build-base /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build install --record /home/nijin26/ros2_ws/build/ros2jazzy_opencv/install.log --single-version-externally-managed install_data
+[1.499s] running egg_info
+[1.500s] creating ../../build/ros2jazzy_opencv/ros2jazzy_opencv.egg-info
+[1.524s] writing ../../build/ros2jazzy_opencv/ros2jazzy_opencv.egg-info/PKG-INFO
+[1.524s] writing dependency_links to ../../build/ros2jazzy_opencv/ros2jazzy_opencv.egg-info/dependency_links.txt
+[1.525s] writing entry points to ../../build/ros2jazzy_opencv/ros2jazzy_opencv.egg-info/entry_points.txt
+[1.525s] writing requirements to ../../build/ros2jazzy_opencv/ros2jazzy_opencv.egg-info/requires.txt
+[1.525s] writing top-level names to ../../build/ros2jazzy_opencv/ros2jazzy_opencv.egg-info/top_level.txt
+[1.525s] writing manifest file '../../build/ros2jazzy_opencv/ros2jazzy_opencv.egg-info/SOURCES.txt'
+[1.570s] reading manifest file '../../build/ros2jazzy_opencv/ros2jazzy_opencv.egg-info/SOURCES.txt'
+[1.570s] adding license file 'LICENSE'
+[1.571s] writing manifest file '../../build/ros2jazzy_opencv/ros2jazzy_opencv.egg-info/SOURCES.txt'
+[1.571s] running build
+[1.571s] running build_py
+[1.571s] creating /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build
+[1.572s] creating /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build/lib
+[1.572s] creating /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build/lib/ros2jazzy_opencv
+[1.572s] copying ros2jazzy_opencv/cameraPublisher.py -> /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build/lib/ros2jazzy_opencv
+[1.572s] copying ros2jazzy_opencv/minimalPublisher.py -> /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build/lib/ros2jazzy_opencv
+[1.572s] copying ros2jazzy_opencv/minimalSubscriber.py -> /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build/lib/ros2jazzy_opencv
+[1.572s] copying ros2jazzy_opencv/detectCircle.py -> /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build/lib/ros2jazzy_opencv
+[1.572s] copying ros2jazzy_opencv/minimalParameters.py -> /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build/lib/ros2jazzy_opencv
+[1.572s] copying ros2jazzy_opencv/subscriberImage.py -> /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build/lib/ros2jazzy_opencv
+[1.572s] copying ros2jazzy_opencv/__init__.py -> /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build/lib/ros2jazzy_opencv
+[1.572s] running install
+[1.579s] running install_lib
+[1.604s] creating /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv
+[1.604s] copying /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build/lib/ros2jazzy_opencv/cameraPublisher.py -> /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv
+[1.604s] copying /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build/lib/ros2jazzy_opencv/minimalPublisher.py -> /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv
+[1.604s] copying /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build/lib/ros2jazzy_opencv/minimalSubscriber.py -> /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv
+[1.605s] copying /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build/lib/ros2jazzy_opencv/detectCircle.py -> /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv
+[1.605s] copying /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build/lib/ros2jazzy_opencv/minimalParameters.py -> /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv
+[1.605s] copying /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build/lib/ros2jazzy_opencv/subscriberImage.py -> /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv
+[1.605s] copying /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build/lib/ros2jazzy_opencv/__init__.py -> /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv
+[1.606s] byte-compiling /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv/cameraPublisher.py to cameraPublisher.cpython-312.pyc
+[1.607s] byte-compiling /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv/minimalPublisher.py to minimalPublisher.cpython-312.pyc
+[1.608s] byte-compiling /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv/minimalSubscriber.py to minimalSubscriber.cpython-312.pyc
+[1.609s] byte-compiling /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv/detectCircle.py to detectCircle.cpython-312.pyc
+[1.610s] byte-compiling /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv/minimalParameters.py to minimalParameters.cpython-312.pyc
+[1.610s] byte-compiling /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv/subscriberImage.py to subscriberImage.cpython-312.pyc
+[1.611s] byte-compiling /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv/__init__.py to __init__.cpython-312.pyc
+[1.611s] running install_data
+[1.611s] creating /home/nijin26/ros2_ws/install/ros2jazzy_opencv/share/ament_index
+[1.611s] creating /home/nijin26/ros2_ws/install/ros2jazzy_opencv/share/ament_index/resource_index
+[1.612s] creating /home/nijin26/ros2_ws/install/ros2jazzy_opencv/share/ament_index/resource_index/packages
+[1.612s] copying resource/ros2jazzy_opencv -> /home/nijin26/ros2_ws/install/ros2jazzy_opencv/share/ament_index/resource_index/packages
+[1.612s] copying package.xml -> /home/nijin26/ros2_ws/install/ros2jazzy_opencv/share/ros2jazzy_opencv
+[1.612s] copying launch/parameters_launch.py -> /home/nijin26/ros2_ws/install/ros2jazzy_opencv/share/ros2jazzy_opencv
+[1.612s] copying launch/detectCircle_launch.py -> /home/nijin26/ros2_ws/install/ros2jazzy_opencv/share/ros2jazzy_opencv
+[1.612s] running install_egg_info
+[1.636s] Copying ../../build/ros2jazzy_opencv/ros2jazzy_opencv.egg-info to /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv-0.0.0-py3.12.egg-info
+[1.637s] running install_scripts
+[1.808s] Installing cameraPublisher_node script to /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/ros2jazzy_opencv
+[1.808s] Installing detectCircle_node script to /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/ros2jazzy_opencv
+[1.808s] Installing minimalParameters_node script to /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/ros2jazzy_opencv
+[1.808s] Installing minimalPublisher_node script to /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/ros2jazzy_opencv
+[1.808s] Installing minimalSubscriber_node script to /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/ros2jazzy_opencv
+[1.808s] Installing subscriberImage_node script to /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/ros2jazzy_opencv
+[1.809s] writing list of installed files to '/home/nijin26/ros2_ws/build/ros2jazzy_opencv/install.log'
+[1.845s] Invoked command in '/home/nijin26/ros2_ws/src/ros2jazzy_opencv' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nijin26/ros2_ws/build/ros2jazzy_opencv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2jazzy_opencv build --build-base /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build install --record /home/nijin26/ros2_ws/build/ros2jazzy_opencv/install.log --single-version-externally-managed install_data

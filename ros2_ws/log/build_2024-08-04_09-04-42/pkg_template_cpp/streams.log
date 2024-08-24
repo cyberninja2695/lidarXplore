@@ -1,0 +1,25 @@
+[0.028s] Invoking command in '/home/nijin26/ros2_ws/build/pkg_template_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/pkg_template_py:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nijin26/ros2_ws/build/pkg_template_cpp -- -j12 -l12
+[0.273s] [ 50%] [32mBuilding CXX object CMakeFiles/node_template_cpp.dir/src/node_template_cpp.cpp.o[0m
+[3.495s] [100%] [32m[1mLinking CXX executable node_template_cpp[0m
+[3.608s] [100%] Built target node_template_cpp
+[3.621s] Invoked command in '/home/nijin26/ros2_ws/build/pkg_template_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/pkg_template_py:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nijin26/ros2_ws/build/pkg_template_cpp -- -j12 -l12
+[3.654s] Invoking command in '/home/nijin26/ros2_ws/build/pkg_template_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/pkg_template_py:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nijin26/ros2_ws/build/pkg_template_cpp
+[3.662s] -- Install configuration: ""
+[3.662s] -- Installing: /home/nijin26/ros2_ws/install/pkg_template_cpp/lib/pkg_template_cpp/node_template_cpp
+[3.663s] -- Set non-toolchain portion of runtime path of "/home/nijin26/ros2_ws/install/pkg_template_cpp/lib/pkg_template_cpp/node_template_cpp" to ""
+[3.663s] -- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/ament_index/resource_index/package_run_dependencies/pkg_template_cpp
+[3.663s] -- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/ament_index/resource_index/parent_prefix_path/pkg_template_cpp
+[3.663s] -- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/environment/ament_prefix_path.sh
+[3.663s] -- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/environment/ament_prefix_path.dsv
+[3.663s] -- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/environment/path.sh
+[3.664s] -- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/environment/path.dsv
+[3.664s] -- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/local_setup.bash
+[3.664s] -- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/local_setup.sh
+[3.664s] -- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/local_setup.zsh
+[3.664s] -- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/local_setup.dsv
+[3.664s] -- Installing: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/package.dsv
+[3.664s] -- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/ament_index/resource_index/packages/pkg_template_cpp
+[3.664s] -- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/cmake/pkg_template_cppConfig.cmake
+[3.664s] -- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/cmake/pkg_template_cppConfig-version.cmake
+[3.664s] -- Up-to-date: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/package.xml
+[3.665s] Invoked command in '/home/nijin26/ros2_ws/build/pkg_template_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/pkg_template_py:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nijin26/ros2_ws/build/pkg_template_cpp

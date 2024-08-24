@@ -1,0 +1,7 @@
+[console_scripts]
+cameraPublisher_node = ros2jazzy_opencv.cameraPublisher:main
+detectCircle_node = ros2jazzy_opencv.detectCircle:main
+minimalParameters_node = ros2jazzy_opencv.minimalParameters:main
+minimalPublisher_node = ros2jazzy_opencv.minimalPublisher:main
+minimalSubscriber_node = ros2jazzy_opencv.minimalSubscriber:main
+subscriberImage_node = ros2jazzy_opencv.subscriberImage:main

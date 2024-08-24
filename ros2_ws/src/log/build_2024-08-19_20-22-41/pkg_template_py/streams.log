@@ -1,0 +1,37 @@
+[8.236s] Invoking command in '/home/nijin26/ros2_ws/src/build/pkg_template_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nijin26/ros2_ws/src/build/pkg_template_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nijin26/ros2_ws/src/install/pkg_template_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nijin26/ros2_ws/src/build/pkg_template_py/build --no-deps symlink_data
+[8.841s] running develop
+[8.859s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[8.859s] !!
+[8.859s] 
+[8.860s]         ********************************************************************************
+[8.860s]         Please avoid running ``setup.py`` and ``easy_install``.
+[8.860s]         Instead, use pypa/build, pypa/installer or other
+[8.860s]         standards-based tools.
+[8.860s] 
+[8.860s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[8.860s]         ********************************************************************************
+[8.860s] 
+[8.860s] !!
+[8.861s]   easy_install.initialize_options(self)
+[9.256s] running egg_info
+[9.256s] creating pkg_template_py.egg-info
+[9.294s] writing pkg_template_py.egg-info/PKG-INFO
+[9.294s] writing dependency_links to pkg_template_py.egg-info/dependency_links.txt
+[9.294s] writing entry points to pkg_template_py.egg-info/entry_points.txt
+[9.295s] writing requirements to pkg_template_py.egg-info/requires.txt
+[9.295s] writing top-level names to pkg_template_py.egg-info/top_level.txt
+[9.295s] writing manifest file 'pkg_template_py.egg-info/SOURCES.txt'
+[9.374s] reading manifest file 'pkg_template_py.egg-info/SOURCES.txt'
+[9.375s] writing manifest file 'pkg_template_py.egg-info/SOURCES.txt'
+[9.424s] running build_ext
+[9.424s] Creating /home/nijin26/ros2_ws/src/install/pkg_template_py/lib/python3.12/site-packages/pkg-template-py.egg-link (link to .)
+[9.425s] Installing node_template_py script to /home/nijin26/ros2_ws/src/install/pkg_template_py/lib/pkg_template_py
+[9.426s] 
+[9.426s] Installed /home/nijin26/ros2_ws/src/build/pkg_template_py
+[9.426s] running symlink_data
+[9.427s] creating /home/nijin26/ros2_ws/src/install/pkg_template_py/share/ament_index
+[9.427s] creating /home/nijin26/ros2_ws/src/install/pkg_template_py/share/ament_index/resource_index
+[9.427s] creating /home/nijin26/ros2_ws/src/install/pkg_template_py/share/ament_index/resource_index/packages
+[9.427s] symbolically linking /home/nijin26/ros2_ws/src/build/pkg_template_py/resource/pkg_template_py -> /home/nijin26/ros2_ws/src/install/pkg_template_py/share/ament_index/resource_index/packages
+[9.428s] symbolically linking /home/nijin26/ros2_ws/src/build/pkg_template_py/package.xml -> /home/nijin26/ros2_ws/src/install/pkg_template_py/share/pkg_template_py
+[9.481s] Invoked command in '/home/nijin26/ros2_ws/src/build/pkg_template_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nijin26/ros2_ws/src/build/pkg_template_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nijin26/ros2_ws/src/install/pkg_template_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nijin26/ros2_ws/src/build/pkg_template_py/build --no-deps symlink_data

@@ -1,0 +1,38 @@
+[8.173s] Invoking command in '/home/nijin26/ros2_ws/src/build/pkg_udemy_course': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nijin26/ros2_ws/src/build/pkg_udemy_course/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nijin26/ros2_ws/src/install/pkg_udemy_course/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nijin26/ros2_ws/src/build/pkg_udemy_course/build --no-deps symlink_data
+[8.781s] running develop
+[8.782s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[8.782s] !!
+[8.782s] 
+[8.783s]         ********************************************************************************
+[8.783s]         Please avoid running ``setup.py`` and ``easy_install``.
+[8.783s]         Instead, use pypa/build, pypa/installer or other
+[8.783s]         standards-based tools.
+[8.783s] 
+[8.783s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[8.783s]         ********************************************************************************
+[8.783s] 
+[8.783s] !!
+[8.784s]   easy_install.initialize_options(self)
+[9.222s] running egg_info
+[9.222s] creating pkg_udemy_course.egg-info
+[9.260s] writing pkg_udemy_course.egg-info/PKG-INFO
+[9.261s] writing dependency_links to pkg_udemy_course.egg-info/dependency_links.txt
+[9.261s] writing entry points to pkg_udemy_course.egg-info/entry_points.txt
+[9.262s] writing requirements to pkg_udemy_course.egg-info/requires.txt
+[9.262s] writing top-level names to pkg_udemy_course.egg-info/top_level.txt
+[9.262s] writing manifest file 'pkg_udemy_course.egg-info/SOURCES.txt'
+[9.344s] reading manifest file 'pkg_udemy_course.egg-info/SOURCES.txt'
+[9.345s] writing manifest file 'pkg_udemy_course.egg-info/SOURCES.txt'
+[9.388s] running build_ext
+[9.389s] Creating /home/nijin26/ros2_ws/src/install/pkg_udemy_course/lib/python3.12/site-packages/pkg-udemy-course.egg-link (link to .)
+[9.390s] Installing node_number_counter script to /home/nijin26/ros2_ws/src/install/pkg_udemy_course/lib/pkg_udemy_course
+[9.390s] Installing node_number_publisher script to /home/nijin26/ros2_ws/src/install/pkg_udemy_course/lib/pkg_udemy_course
+[9.391s] 
+[9.391s] Installed /home/nijin26/ros2_ws/src/build/pkg_udemy_course
+[9.391s] running symlink_data
+[9.392s] creating /home/nijin26/ros2_ws/src/install/pkg_udemy_course/share/ament_index
+[9.392s] creating /home/nijin26/ros2_ws/src/install/pkg_udemy_course/share/ament_index/resource_index
+[9.392s] creating /home/nijin26/ros2_ws/src/install/pkg_udemy_course/share/ament_index/resource_index/packages
+[9.392s] symbolically linking /home/nijin26/ros2_ws/src/build/pkg_udemy_course/resource/pkg_udemy_course -> /home/nijin26/ros2_ws/src/install/pkg_udemy_course/share/ament_index/resource_index/packages
+[9.393s] symbolically linking /home/nijin26/ros2_ws/src/build/pkg_udemy_course/package.xml -> /home/nijin26/ros2_ws/src/install/pkg_udemy_course/share/pkg_udemy_course
+[9.707s] Invoked command in '/home/nijin26/ros2_ws/src/build/pkg_udemy_course' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nijin26/ros2_ws/src/build/pkg_udemy_course/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nijin26/ros2_ws/src/install/pkg_udemy_course/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nijin26/ros2_ws/src/build/pkg_udemy_course/build --no-deps symlink_data

@@ -1,0 +1,62 @@
+[0.048s] Invoking command in '/home/nijin26/ros2_ws/build/pkg_template_multi_language': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nijin26/ros2_ws/src/pkg_template_multi_language -DCMAKE_INSTALL_PREFIX=/home/nijin26/ros2_ws/install/pkg_template_multi_language
+[1.157s] -- The C compiler identification is GNU 13.2.0
+[1.690s] -- The CXX compiler identification is GNU 13.2.0
+[1.760s] -- Detecting C compiler ABI info
+[2.055s] -- Detecting C compiler ABI info - done
+[2.075s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.213s] -- Detecting C compile features
+[2.230s] -- Detecting C compile features - done
+[2.252s] -- Detecting CXX compiler ABI info
+[2.409s] -- Detecting CXX compiler ABI info - done
+[2.426s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.426s] -- Detecting CXX compile features
+[2.427s] -- Detecting CXX compile features - done
+[2.474s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.761s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.085s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.291s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.383s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.486s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.570s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.910s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.923s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.503s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.546s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[4.570s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.869s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.182s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.183s] -- Configured cppcheck include dirs: 
+[5.183s] -- Configured cppcheck exclude dirs and/or files: 
+[5.201s] -- Added test 'lint_cmake' to check CMake code style
+[5.206s] -- Added test 'uncrustify' to check C / C++ code style
+[5.206s] -- Configured uncrustify additional arguments: 
+[5.209s] -- Added test 'xmllint' to check XML markup files
+[5.216s] -- Configuring done (5.2s)
+[5.294s] -- Generating done (0.0s)
+[5.299s] -- Build files have been written to: /home/nijin26/ros2_ws/build/pkg_template_multi_language
+[5.315s] Invoked command in '/home/nijin26/ros2_ws/build/pkg_template_multi_language' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nijin26/ros2_ws/src/pkg_template_multi_language -DCMAKE_INSTALL_PREFIX=/home/nijin26/ros2_ws/install/pkg_template_multi_language
+[5.317s] Invoking command in '/home/nijin26/ros2_ws/build/pkg_template_multi_language': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nijin26/ros2_ws/build/pkg_template_multi_language -- -j12 -l12
+[5.369s] [ 50%] [32mBuilding CXX object CMakeFiles/node_template_cpp.dir/src/node_template_cpp.cpp.o[0m
+[8.661s] [100%] [32m[1mLinking CXX executable node_template_cpp[0m
+[8.862s] [100%] Built target node_template_cpp
+[8.874s] Invoked command in '/home/nijin26/ros2_ws/build/pkg_template_multi_language' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nijin26/ros2_ws/build/pkg_template_multi_language -- -j12 -l12
+[8.898s] Invoking command in '/home/nijin26/ros2_ws/build/pkg_template_multi_language': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nijin26/ros2_ws/build/pkg_template_multi_language
+[8.905s] -- Install configuration: ""
+[8.905s] -- Installing: /home/nijin26/ros2_ws/install/pkg_template_multi_language/lib/pkg_template_multi_language/node_template_cpp
+[8.906s] -- Set non-toolchain portion of runtime path of "/home/nijin26/ros2_ws/install/pkg_template_multi_language/lib/pkg_template_multi_language/node_template_cpp" to ""
+[8.906s] -- Installing: /home/nijin26/ros2_ws/install/pkg_template_multi_language/share/ament_index/resource_index/package_run_dependencies/pkg_template_multi_language
+[8.906s] -- Installing: /home/nijin26/ros2_ws/install/pkg_template_multi_language/share/ament_index/resource_index/parent_prefix_path/pkg_template_multi_language
+[8.906s] -- Installing: /home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/environment/ament_prefix_path.sh
+[8.906s] -- Installing: /home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/environment/ament_prefix_path.dsv
+[8.906s] -- Installing: /home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/environment/path.sh
+[8.907s] -- Installing: /home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/environment/path.dsv
+[8.907s] -- Installing: /home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/local_setup.bash
+[8.907s] -- Installing: /home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/local_setup.sh
+[8.907s] -- Installing: /home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/local_setup.zsh
+[8.907s] -- Installing: /home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/local_setup.dsv
+[8.907s] -- Installing: /home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/package.dsv
+[8.907s] -- Installing: /home/nijin26/ros2_ws/install/pkg_template_multi_language/share/ament_index/resource_index/packages/pkg_template_multi_language
+[8.908s] -- Installing: /home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/cmake/pkg_template_multi_languageConfig.cmake
+[8.908s] -- Installing: /home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/cmake/pkg_template_multi_languageConfig-version.cmake
+[8.908s] -- Installing: /home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/package.xml
+[8.910s] Invoked command in '/home/nijin26/ros2_ws/build/pkg_template_multi_language' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nijin26/ros2_ws/build/pkg_template_multi_language

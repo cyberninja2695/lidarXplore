@@ -1,0 +1,181 @@
+[0.022s] Invoking command in '/home/nijin26/microros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nijin26/microros_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/nijin26/microros_ws/install/micro_ros_setup
+[1.669s] -- The C compiler identification is GNU 13.2.0
+[2.428s] -- The CXX compiler identification is GNU 13.2.0
+[2.531s] -- Detecting C compiler ABI info
+[2.952s] -- Detecting C compiler ABI info - done
+[2.968s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.968s] -- Detecting C compile features
+[2.982s] -- Detecting C compile features - done
+[2.997s] -- Detecting CXX compiler ABI info
+[3.188s] -- Detecting CXX compiler ABI info - done
+[3.205s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.205s] -- Detecting CXX compile features
+[3.206s] -- Detecting CXX compile features - done
+[3.375s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.735s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.017s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.185s] -- Configuring done (3.7s)
+[4.190s] -- Generating done (0.0s)
+[4.191s] -- Build files have been written to: /home/nijin26/microros_ws/build/micro_ros_setup
+[4.199s] Invoked command in '/home/nijin26/microros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nijin26/microros_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/nijin26/microros_ws/install/micro_ros_setup
+[4.201s] Invoking command in '/home/nijin26/microros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nijin26/microros_ws/build/micro_ros_setup -- -j12 -l12
+[4.261s] Invoked command in '/home/nijin26/microros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nijin26/microros_ws/build/micro_ros_setup -- -j12 -l12
+[4.307s] Invoking command in '/home/nijin26/microros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nijin26/microros_ws/build/micro_ros_setup
+[4.319s] -- Install configuration: ""
+[4.320s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup
+[4.320s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup
+[4.320s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh
+[4.321s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv
+[4.321s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh
+[4.321s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv
+[4.321s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash
+[4.321s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh
+[4.321s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh
+[4.322s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv
+[4.322s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv
+[4.322s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup
+[4.322s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake
+[4.323s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake
+[4.323s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml
+[4.323s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config
+[4.323s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/android
+[4.324s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt
+[4.324s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos
+[4.324s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/android/generic
+[4.324s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/android/generic/flash.sh
+[4.324s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/android/generic/build.sh
+[4.325s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/android/generic/create.sh
+[4.325s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/android/generic/package.xml
+[4.325s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos
+[4.325s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta
+[4.325s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/client_ros2_packages.txt
+[4.325s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/zephyr
+[4.326s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt
+[4.326s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos
+[4.326s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/zephyr/generic
+[4.326s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh
+[4.326s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh
+[4.326s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos
+[4.327s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh
+[4.327s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml
+[4.327s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms
+[4.327s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos
+[4.327s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta
+[4.327s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh
+[4.328s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh
+[4.328s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt
+[4.328s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/utils.sh
+[4.328s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/raspbian
+[4.328s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt
+[4.329s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos
+[4.329s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/raspbian/generic
+[4.329s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh
+[4.329s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh
+[4.329s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh
+[4.330s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms
+[4.330s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos
+[4.330s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta
+[4.330s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh
+[4.330s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/client_uros_packages.repos
+[4.331s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos
+[4.331s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg
+[4.331s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh
+[4.331s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh
+[4.331s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos
+[4.332s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh
+[4.332s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml
+[4.332s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos
+[4.332s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta
+[4.333s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh
+[4.333s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt
+[4.333s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze
+[4.333s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh
+[4.333s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh
+[4.334s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos
+[4.334s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh
+[4.334s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml
+[4.334s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos
+[4.334s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta
+[4.335s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh
+[4.335s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21
+[4.335s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh
+[4.335s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh
+[4.335s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos
+[4.335s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh
+[4.336s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml
+[4.336s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos
+[4.336s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta
+[4.336s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh
+[4.336s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos
+[4.336s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re
+[4.336s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh
+[4.337s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh
+[4.337s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos
+[4.337s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh
+[4.337s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml
+[4.337s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos
+[4.337s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta
+[4.337s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh
+[4.338s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi
+[4.338s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh
+[4.338s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh
+[4.338s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos
+[4.338s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh
+[4.339s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml
+[4.339s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos
+[4.339s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta
+[4.339s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh
+[4.339s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407
+[4.339s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh
+[4.340s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh
+[4.340s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos
+[4.340s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh
+[4.340s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml
+[4.340s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos
+[4.340s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta
+[4.341s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh
+[4.341s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/esp32
+[4.341s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh
+[4.341s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh
+[4.341s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos
+[4.341s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh
+[4.342s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/esp32/README.md
+[4.342s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml
+[4.342s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos
+[4.342s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta
+[4.342s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh
+[4.342s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/freertos/list_apps.sh
+[4.343s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/agent_uros_packages.repos
+[4.343s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/generate_lib
+[4.343s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt
+[4.343s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos
+[4.343s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/generate_lib/generic
+[4.343s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh
+[4.344s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh
+[4.344s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake
+[4.344s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh
+[4.344s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml
+[4.344s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos
+[4.344s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta
+[4.344s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/host
+[4.345s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt
+[4.345s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt
+[4.345s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos
+[4.345s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/host/generic
+[4.345s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/host/generic/flash.sh
+[4.345s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/host/generic/build.sh
+[4.346s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/host/generic/create.sh
+[4.346s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/host/generic/package.xml
+[4.346s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos
+[4.346s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta
+[4.346s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh
+[4.346s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh
+[4.346s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh
+[4.346s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh
+[4.346s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh
+[4.347s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh
+[4.347s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh
+[4.347s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py
+[4.347s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh
+[4.347s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/component
+[4.348s] Invoked command in '/home/nijin26/microros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nijin26/microros_ws/build/micro_ros_setup

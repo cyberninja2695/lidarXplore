@@ -1,0 +1,16 @@
+/home/nijin26/ros2_ws/src/install/pkg_template_cpp/lib/pkg_template_cpp/node_template_cpp
+/home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/ament_index/resource_index/package_run_dependencies/pkg_template_cpp
+/home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/ament_index/resource_index/parent_prefix_path/pkg_template_cpp
+/home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/pkg_template_cpp/environment/ament_prefix_path.sh
+/home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/pkg_template_cpp/environment/ament_prefix_path.dsv
+/home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/pkg_template_cpp/environment/path.sh
+/home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/pkg_template_cpp/environment/path.dsv
+/home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/pkg_template_cpp/local_setup.bash
+/home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/pkg_template_cpp/local_setup.sh
+/home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/pkg_template_cpp/local_setup.zsh
+/home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/pkg_template_cpp/local_setup.dsv
+/home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/pkg_template_cpp/package.dsv
+/home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/ament_index/resource_index/packages/pkg_template_cpp
+/home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/pkg_template_cpp/cmake/pkg_template_cppConfig.cmake
+/home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/pkg_template_cpp/cmake/pkg_template_cppConfig-version.cmake
+/home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/pkg_template_cpp/package.xml

@@ -1,0 +1,2 @@
+source;share/pkg_template_multi_language/environment/ament_prefix_path.sh
+source;share/pkg_template_multi_language/environment/path.sh

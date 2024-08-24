@@ -1,0 +1,27 @@
+[1.471s] Invoking command in '/home/nijin26/ros2_ws/src/ros2jazzy_opencv': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nijin26/ros2_ws/build/ros2jazzy_opencv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2jazzy_opencv build --build-base /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build install --record /home/nijin26/ros2_ws/build/ros2jazzy_opencv/install.log --single-version-externally-managed install_data
+[1.832s] running egg_info
+[1.858s] writing ../../build/ros2jazzy_opencv/ros2jazzy_opencv.egg-info/PKG-INFO
+[1.858s] writing dependency_links to ../../build/ros2jazzy_opencv/ros2jazzy_opencv.egg-info/dependency_links.txt
+[1.858s] writing entry points to ../../build/ros2jazzy_opencv/ros2jazzy_opencv.egg-info/entry_points.txt
+[1.858s] writing requirements to ../../build/ros2jazzy_opencv/ros2jazzy_opencv.egg-info/requires.txt
+[1.859s] writing top-level names to ../../build/ros2jazzy_opencv/ros2jazzy_opencv.egg-info/top_level.txt
+[1.912s] reading manifest file '../../build/ros2jazzy_opencv/ros2jazzy_opencv.egg-info/SOURCES.txt'
+[1.912s] adding license file 'LICENSE'
+[1.913s] writing manifest file '../../build/ros2jazzy_opencv/ros2jazzy_opencv.egg-info/SOURCES.txt'
+[1.913s] running build
+[1.913s] running build_py
+[1.914s] running install
+[1.921s] running install_lib
+[1.953s] running install_data
+[1.953s] running install_egg_info
+[1.998s] removing '/home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv-0.0.0-py3.12.egg-info' (and everything under it)
+[1.998s] Copying ../../build/ros2jazzy_opencv/ros2jazzy_opencv.egg-info to /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv-0.0.0-py3.12.egg-info
+[2.000s] running install_scripts
+[2.169s] Installing cameraPublisher_node script to /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/ros2jazzy_opencv
+[2.169s] Installing detectCircle_node script to /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/ros2jazzy_opencv
+[2.169s] Installing minimalParameters_node script to /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/ros2jazzy_opencv
+[2.169s] Installing minimalPublisher_node script to /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/ros2jazzy_opencv
+[2.170s] Installing minimalSubscriber_node script to /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/ros2jazzy_opencv
+[2.170s] Installing subscriberImage_node script to /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/ros2jazzy_opencv
+[2.170s] writing list of installed files to '/home/nijin26/ros2_ws/build/ros2jazzy_opencv/install.log'
+[2.220s] Invoked command in '/home/nijin26/ros2_ws/src/ros2jazzy_opencv' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nijin26/ros2_ws/build/ros2jazzy_opencv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2jazzy_opencv build --build-base /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build install --record /home/nijin26/ros2_ws/build/ros2jazzy_opencv/install.log --single-version-externally-managed install_data

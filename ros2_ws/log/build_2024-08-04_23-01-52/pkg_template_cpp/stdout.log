@@ -1,0 +1,19 @@
+[100%] Built target node_template_cpp
+-- Install configuration: ""
+-- Installing: /home/nijin26/ros2_ws/install/pkg_template_cpp/lib/pkg_template_cpp/node_template_cpp
+-- Set non-toolchain portion of runtime path of "/home/nijin26/ros2_ws/install/pkg_template_cpp/lib/pkg_template_cpp/node_template_cpp" to ""
+-- Installing: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/ament_index/resource_index/package_run_dependencies/pkg_template_cpp
+-- Installing: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/ament_index/resource_index/parent_prefix_path/pkg_template_cpp
+-- Installing: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/environment/path.sh
+-- Installing: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/environment/path.dsv
+-- Installing: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/local_setup.bash
+-- Installing: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/local_setup.sh
+-- Installing: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/local_setup.zsh
+-- Installing: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/local_setup.dsv
+-- Installing: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/package.dsv
+-- Installing: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/ament_index/resource_index/packages/pkg_template_cpp
+-- Installing: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/cmake/pkg_template_cppConfig.cmake
+-- Installing: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/cmake/pkg_template_cppConfig-version.cmake
+-- Installing: /home/nijin26/ros2_ws/install/pkg_template_cpp/share/pkg_template_cpp/package.xml

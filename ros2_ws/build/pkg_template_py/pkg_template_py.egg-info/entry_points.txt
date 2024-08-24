@@ -1,0 +1,2 @@
+[console_scripts]
+node_template_py = pkg_template_py.node_template_py:main

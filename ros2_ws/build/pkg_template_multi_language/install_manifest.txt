@@ -1,0 +1,17 @@
+/home/nijin26/ros2_ws/install/pkg_template_multi_language/lib/pkg_template_multi_language/node_template_cpp
+/home/nijin26/ros2_ws/install/pkg_template_multi_language/lib/pkg_template_multi_language/node_template_py.py
+/home/nijin26/ros2_ws/install/pkg_template_multi_language/share/ament_index/resource_index/package_run_dependencies/pkg_template_multi_language
+/home/nijin26/ros2_ws/install/pkg_template_multi_language/share/ament_index/resource_index/parent_prefix_path/pkg_template_multi_language
+/home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/environment/ament_prefix_path.sh
+/home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/environment/ament_prefix_path.dsv
+/home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/environment/path.sh
+/home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/environment/path.dsv
+/home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/local_setup.bash
+/home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/local_setup.sh
+/home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/local_setup.zsh
+/home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/local_setup.dsv
+/home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/package.dsv
+/home/nijin26/ros2_ws/install/pkg_template_multi_language/share/ament_index/resource_index/packages/pkg_template_multi_language
+/home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/cmake/pkg_template_multi_languageConfig.cmake
+/home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/cmake/pkg_template_multi_languageConfig-version.cmake
+/home/nijin26/ros2_ws/install/pkg_template_multi_language/share/pkg_template_multi_language/package.xml

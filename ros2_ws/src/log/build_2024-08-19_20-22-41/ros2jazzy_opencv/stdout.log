@@ -1,0 +1,29 @@
+running develop
+running egg_info
+creating ros2jazzy_opencv.egg-info
+writing ros2jazzy_opencv.egg-info/PKG-INFO
+writing dependency_links to ros2jazzy_opencv.egg-info/dependency_links.txt
+writing entry points to ros2jazzy_opencv.egg-info/entry_points.txt
+writing requirements to ros2jazzy_opencv.egg-info/requires.txt
+writing top-level names to ros2jazzy_opencv.egg-info/top_level.txt
+writing manifest file 'ros2jazzy_opencv.egg-info/SOURCES.txt'
+reading manifest file 'ros2jazzy_opencv.egg-info/SOURCES.txt'
+writing manifest file 'ros2jazzy_opencv.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nijin26/ros2_ws/src/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy-opencv.egg-link (link to .)
+Installing cameraPublisher_node script to /home/nijin26/ros2_ws/src/install/ros2jazzy_opencv/lib/ros2jazzy_opencv
+Installing detectCircle_node script to /home/nijin26/ros2_ws/src/install/ros2jazzy_opencv/lib/ros2jazzy_opencv
+Installing minimalParameters_node script to /home/nijin26/ros2_ws/src/install/ros2jazzy_opencv/lib/ros2jazzy_opencv
+Installing minimalPublisher_node script to /home/nijin26/ros2_ws/src/install/ros2jazzy_opencv/lib/ros2jazzy_opencv
+Installing minimalSubscriber_node script to /home/nijin26/ros2_ws/src/install/ros2jazzy_opencv/lib/ros2jazzy_opencv
+Installing subscriberImage_node script to /home/nijin26/ros2_ws/src/install/ros2jazzy_opencv/lib/ros2jazzy_opencv
+
+Installed /home/nijin26/ros2_ws/src/build/ros2jazzy_opencv
+running symlink_data
+creating /home/nijin26/ros2_ws/src/install/ros2jazzy_opencv/share/ament_index
+creating /home/nijin26/ros2_ws/src/install/ros2jazzy_opencv/share/ament_index/resource_index
+creating /home/nijin26/ros2_ws/src/install/ros2jazzy_opencv/share/ament_index/resource_index/packages
+symbolically linking /home/nijin26/ros2_ws/src/build/ros2jazzy_opencv/resource/ros2jazzy_opencv -> /home/nijin26/ros2_ws/src/install/ros2jazzy_opencv/share/ament_index/resource_index/packages
+symbolically linking /home/nijin26/ros2_ws/src/build/ros2jazzy_opencv/package.xml -> /home/nijin26/ros2_ws/src/install/ros2jazzy_opencv/share/ros2jazzy_opencv
+symbolically linking /home/nijin26/ros2_ws/src/build/ros2jazzy_opencv/launch/parameters_launch.py -> /home/nijin26/ros2_ws/src/install/ros2jazzy_opencv/share/ros2jazzy_opencv
+symbolically linking /home/nijin26/ros2_ws/src/build/ros2jazzy_opencv/launch/detectCircle_launch.py -> /home/nijin26/ros2_ws/src/install/ros2jazzy_opencv/share/ros2jazzy_opencv

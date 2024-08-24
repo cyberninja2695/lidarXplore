@@ -1,0 +1,63 @@
+[0.165s] Invoking command in '/home/nijin26/ros2_ws/src/build/pkg_template_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nijin26/ros2_ws/src/pkg_template_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nijin26/ros2_ws/src/install/pkg_template_cpp
+[2.038s] -- The C compiler identification is GNU 13.2.0
+[2.303s] -- The CXX compiler identification is GNU 13.2.0
+[2.532s] -- Detecting C compiler ABI info
+[3.216s] -- Detecting C compiler ABI info - done
+[3.270s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.271s] -- Detecting C compile features
+[3.287s] -- Detecting C compile features - done
+[3.344s] -- Detecting CXX compiler ABI info
+[3.738s] -- Detecting CXX compiler ABI info - done
+[3.760s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.761s] -- Detecting CXX compile features
+[3.762s] -- Detecting CXX compile features - done
+[4.126s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.786s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.241s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.411s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[7.002s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[7.107s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[7.212s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.312s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.278s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[8.312s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[8.870s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[8.923s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[8.967s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.300s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[9.927s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.927s] -- Configured cppcheck include dirs: 
+[9.928s] -- Configured cppcheck exclude dirs and/or files: 
+[9.932s] -- Added test 'lint_cmake' to check CMake code style
+[9.938s] -- Added test 'uncrustify' to check C / C++ code style
+[9.938s] -- Configured uncrustify additional arguments: 
+[9.941s] -- Added test 'xmllint' to check XML markup files
+[9.951s] -- Configuring done (9.8s)
+[10.022s] -- Generating done (0.0s)
+[10.026s] -- Build files have been written to: /home/nijin26/ros2_ws/src/build/pkg_template_cpp
+[10.049s] Invoked command in '/home/nijin26/ros2_ws/src/build/pkg_template_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nijin26/ros2_ws/src/pkg_template_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nijin26/ros2_ws/src/install/pkg_template_cpp
+[10.054s] Invoking command in '/home/nijin26/ros2_ws/src/build/pkg_template_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nijin26/ros2_ws/src/build/pkg_template_cpp -- -j12 -l12
+[10.192s] [ 50%] [32mBuilding CXX object CMakeFiles/node_template_cpp.dir/src/node_template_cpp.cpp.o[0m
+[21.552s] [100%] [32m[1mLinking CXX executable node_template_cpp[0m
+[21.848s] [100%] Built target node_template_cpp
+[21.867s] Invoked command in '/home/nijin26/ros2_ws/src/build/pkg_template_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nijin26/ros2_ws/src/build/pkg_template_cpp -- -j12 -l12
+[21.925s] Invoking command in '/home/nijin26/ros2_ws/src/build/pkg_template_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nijin26/ros2_ws/src/build/pkg_template_cpp
+[21.938s] -- Install configuration: ""
+[21.939s] -- Execute custom install script
+[21.939s] -- Symlinking: /home/nijin26/ros2_ws/src/install/pkg_template_cpp/lib/pkg_template_cpp/node_template_cpp
+[21.955s] -- Symlinking: /home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/ament_index/resource_index/package_run_dependencies/pkg_template_cpp
+[21.971s] -- Symlinking: /home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/ament_index/resource_index/parent_prefix_path/pkg_template_cpp
+[21.989s] -- Symlinking: /home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/pkg_template_cpp/environment/ament_prefix_path.sh
+[22.004s] -- Symlinking: /home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/pkg_template_cpp/environment/ament_prefix_path.dsv
+[22.020s] -- Symlinking: /home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/pkg_template_cpp/environment/path.sh
+[22.035s] -- Symlinking: /home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/pkg_template_cpp/environment/path.dsv
+[22.051s] -- Symlinking: /home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/pkg_template_cpp/local_setup.bash
+[22.066s] -- Symlinking: /home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/pkg_template_cpp/local_setup.sh
+[22.082s] -- Symlinking: /home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/pkg_template_cpp/local_setup.zsh
+[22.098s] -- Symlinking: /home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/pkg_template_cpp/local_setup.dsv
+[22.114s] -- Symlinking: /home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/pkg_template_cpp/package.dsv
+[22.129s] -- Symlinking: /home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/ament_index/resource_index/packages/pkg_template_cpp
+[22.144s] -- Symlinking: /home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/pkg_template_cpp/cmake/pkg_template_cppConfig.cmake
+[22.160s] -- Symlinking: /home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/pkg_template_cpp/cmake/pkg_template_cppConfig-version.cmake
+[22.175s] -- Symlinking: /home/nijin26/ros2_ws/src/install/pkg_template_cpp/share/pkg_template_cpp/package.xml
+[22.195s] Invoked command in '/home/nijin26/ros2_ws/src/build/pkg_template_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nijin26/ros2_ws/src/build/pkg_template_cpp

@@ -1,0 +1,193 @@
+[0.023s] Invoking command in '/home/nijin26/microros_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nijin26/microros_ws/build/micro_ros_msgs -- -j12 -l12
+[0.105s] [  1%] Built target micro_ros_msgs__rosidl_generator_type_description
+[0.122s] [  1%] Built target ament_cmake_python_copy_micro_ros_msgs
+[0.138s] [  3%] Built target micro_ros_msgs__cpp
+[0.148s] [ 24%] Built target micro_ros_msgs__rosidl_generator_c
+[0.192s] [ 33%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[0.193s] [ 42%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[0.195s] [ 51%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[0.197s] [ 61%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[0.199s] [ 70%] Built target micro_ros_msgs__rosidl_typesupport_c
+[0.203s] [ 79%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[0.237s] [ 79%] Built target micro_ros_msgs
+[0.270s] [ 81%] Built target micro_ros_msgs__py
+[0.313s] [ 88%] Built target micro_ros_msgs__rosidl_generator_py
+[0.373s] [ 94%] Built target micro_ros_msgs_s__rosidl_typesupport_fastrtps_c
+[0.373s] [ 96%] Built target micro_ros_msgs_s__rosidl_typesupport_c
+[0.374s] [100%] Built target micro_ros_msgs_s__rosidl_typesupport_introspection_c
+[0.536s] running egg_info
+[0.577s] writing micro_ros_msgs.egg-info/PKG-INFO
+[0.577s] writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt
+[0.577s] writing top-level names to micro_ros_msgs.egg-info/top_level.txt
+[0.697s] reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[0.697s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[0.742s] [100%] Built target ament_cmake_python_build_micro_ros_msgs_egg
+[0.761s] Invoked command in '/home/nijin26/microros_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nijin26/microros_ws/build/micro_ros_msgs -- -j12 -l12
+[0.964s] Invoking command in '/home/nijin26/microros_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nijin26/microros_ws/build/micro_ros_msgs
+[0.981s] -- Install configuration: ""
+[0.981s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs
+[0.981s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.json
+[0.982s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.json
+[0.982s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.json
+[0.982s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[0.982s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[0.983s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.983s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[0.983s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h
+[0.983s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h
+[0.984s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__description.c
+[0.984s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__description.c
+[0.984s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c
+[0.984s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__description.c
+[0.984s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h
+[0.985s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c
+[0.985s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h
+[0.985s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c
+[0.985s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h
+[0.985s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h
+[0.986s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c
+[0.986s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c
+[0.986s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h
+[0.986s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c
+[0.986s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h
+[0.987s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h
+[0.987s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h
+[0.987s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h
+[0.988s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h
+[0.988s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh
+[0.988s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv
+[0.988s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so
+[0.988s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[0.989s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[0.989s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.989s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[0.989s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[0.990s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h
+[0.990s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h
+[0.990s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[0.990s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[0.990s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[0.990s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[0.990s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h
+[0.991s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[0.991s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h
+[0.991s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c
+[0.991s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c
+[0.991s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c
+[0.991s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.992s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so
+[0.992s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so
+[0.992s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[0.992s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[0.992s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.993s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp
+[0.993s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp
+[0.993s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[0.993s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp
+[0.993s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.hpp
+[0.994s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp
+[0.994s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.hpp
+[0.994s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp
+[0.994s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp
+[0.994s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp
+[0.995s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.hpp
+[0.995s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp
+[0.995s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp
+[0.995s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp
+[0.995s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp
+[0.996s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp
+[0.996s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[0.996s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[0.996s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.996s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[0.996s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[0.997s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps
+[0.997s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp
+[0.997s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp
+[0.997s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.997s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[0.998s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[0.998s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[0.998s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[0.998s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp
+[0.998s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp
+[0.999s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp
+[0.999s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp
+[0.999s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp
+[0.999s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[0.999s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so
+[0.999s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh
+[1.000s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv
+[1.000s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info
+[1.000s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/PKG-INFO
+[1.000s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/dependency_links.txt
+[1.000s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/SOURCES.txt
+[1.000s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/top_level.txt
+[1.000s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs
+[1.000s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg
+[1.001s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_node_s.c
+[1.001s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_graph_s.c
+[1.001s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_entity_s.c
+[1.001s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_node.py
+[1.001s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_entity.py
+[1.001s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_graph.py
+[1.001s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/__init__.py
+[1.001s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.so
+[1.001s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.so
+[1.002s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.002s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.002s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.002s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c
+[1.002s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/__init__.py
+[1.052s] Listing '/home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs'...
+[1.052s] Listing '/home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg'...
+[1.062s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.062s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.so
+[1.063s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.so
+[1.063s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so
+[1.064s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl
+[1.064s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl
+[1.064s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl
+[1.065s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg
+[1.065s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg
+[1.065s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg
+[1.065s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs
+[1.065s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs
+[1.065s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh
+[1.066s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv
+[1.066s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh
+[1.066s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv
+[1.066s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash
+[1.066s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh
+[1.066s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh
+[1.066s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv
+[1.066s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv
+[1.067s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs
+[1.067s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake
+[1.067s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.067s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.067s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.067s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.067s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.068s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake
+[1.068s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.068s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake
+[1.068s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.068s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.068s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.068s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.068s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake
+[1.069s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.069s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake
+[1.069s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.069s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[1.069s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.069s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.069s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.069s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.069s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.070s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.070s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake
+[1.070s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake
+[1.070s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml
+[1.071s] Invoked command in '/home/nijin26/microros_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nijin26/microros_ws/build/micro_ros_msgs

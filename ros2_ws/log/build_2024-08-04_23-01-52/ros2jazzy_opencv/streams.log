@@ -1,0 +1,48 @@
+[1.481s] Invoking command in '/home/nijin26/ros2_ws/src/ros2jazzy_opencv': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nijin26/ros2_ws/build/ros2jazzy_opencv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2jazzy_opencv build --build-base /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build install --record /home/nijin26/ros2_ws/build/ros2jazzy_opencv/install.log --single-version-externally-managed install_data
+[1.772s] running egg_info
+[1.794s] writing ../../build/ros2jazzy_opencv/ros2jazzy_opencv.egg-info/PKG-INFO
+[1.795s] writing dependency_links to ../../build/ros2jazzy_opencv/ros2jazzy_opencv.egg-info/dependency_links.txt
+[1.795s] writing entry points to ../../build/ros2jazzy_opencv/ros2jazzy_opencv.egg-info/entry_points.txt
+[1.795s] writing requirements to ../../build/ros2jazzy_opencv/ros2jazzy_opencv.egg-info/requires.txt
+[1.795s] writing top-level names to ../../build/ros2jazzy_opencv/ros2jazzy_opencv.egg-info/top_level.txt
+[1.841s] reading manifest file '../../build/ros2jazzy_opencv/ros2jazzy_opencv.egg-info/SOURCES.txt'
+[1.841s] adding license file 'LICENSE'
+[1.841s] writing manifest file '../../build/ros2jazzy_opencv/ros2jazzy_opencv.egg-info/SOURCES.txt'
+[1.842s] running build
+[1.842s] running build_py
+[1.842s] running install
+[1.849s] running install_lib
+[1.871s] creating /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv
+[1.871s] copying /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build/lib/ros2jazzy_opencv/cameraPublisher.py -> /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv
+[1.871s] copying /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build/lib/ros2jazzy_opencv/minimalPublisher.py -> /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv
+[1.871s] copying /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build/lib/ros2jazzy_opencv/minimalSubscriber.py -> /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv
+[1.871s] copying /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build/lib/ros2jazzy_opencv/detectCircle.py -> /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv
+[1.871s] copying /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build/lib/ros2jazzy_opencv/minimalParameters.py -> /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv
+[1.872s] copying /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build/lib/ros2jazzy_opencv/subscriberImage.py -> /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv
+[1.872s] copying /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build/lib/ros2jazzy_opencv/__init__.py -> /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv
+[1.872s] byte-compiling /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv/cameraPublisher.py to cameraPublisher.cpython-312.pyc
+[1.872s] byte-compiling /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv/minimalPublisher.py to minimalPublisher.cpython-312.pyc
+[1.873s] byte-compiling /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv/minimalSubscriber.py to minimalSubscriber.cpython-312.pyc
+[1.873s] byte-compiling /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv/detectCircle.py to detectCircle.cpython-312.pyc
+[1.874s] byte-compiling /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv/minimalParameters.py to minimalParameters.cpython-312.pyc
+[1.874s] byte-compiling /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv/subscriberImage.py to subscriberImage.cpython-312.pyc
+[1.875s] byte-compiling /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv/__init__.py to __init__.cpython-312.pyc
+[1.875s] running install_data
+[1.875s] creating /home/nijin26/ros2_ws/install/ros2jazzy_opencv/share/ament_index
+[1.875s] creating /home/nijin26/ros2_ws/install/ros2jazzy_opencv/share/ament_index/resource_index
+[1.876s] creating /home/nijin26/ros2_ws/install/ros2jazzy_opencv/share/ament_index/resource_index/packages
+[1.876s] copying resource/ros2jazzy_opencv -> /home/nijin26/ros2_ws/install/ros2jazzy_opencv/share/ament_index/resource_index/packages
+[1.876s] copying package.xml -> /home/nijin26/ros2_ws/install/ros2jazzy_opencv/share/ros2jazzy_opencv
+[1.876s] copying launch/parameters_launch.py -> /home/nijin26/ros2_ws/install/ros2jazzy_opencv/share/ros2jazzy_opencv
+[1.876s] copying launch/detectCircle_launch.py -> /home/nijin26/ros2_ws/install/ros2jazzy_opencv/share/ros2jazzy_opencv
+[1.876s] running install_egg_info
+[1.901s] Copying ../../build/ros2jazzy_opencv/ros2jazzy_opencv.egg-info to /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages/ros2jazzy_opencv-0.0.0-py3.12.egg-info
+[1.902s] running install_scripts
+[2.050s] Installing cameraPublisher_node script to /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/ros2jazzy_opencv
+[2.050s] Installing detectCircle_node script to /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/ros2jazzy_opencv
+[2.051s] Installing minimalParameters_node script to /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/ros2jazzy_opencv
+[2.051s] Installing minimalPublisher_node script to /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/ros2jazzy_opencv
+[2.051s] Installing minimalSubscriber_node script to /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/ros2jazzy_opencv
+[2.051s] Installing subscriberImage_node script to /home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/ros2jazzy_opencv
+[2.051s] writing list of installed files to '/home/nijin26/ros2_ws/build/ros2jazzy_opencv/install.log'
+[2.100s] Invoked command in '/home/nijin26/ros2_ws/src/ros2jazzy_opencv' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nijin26/ros2_ws/build/ros2jazzy_opencv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nijin26/ros2_ws/install/ros2jazzy_opencv/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2jazzy_opencv build --build-base /home/nijin26/ros2_ws/build/ros2jazzy_opencv/build install --record /home/nijin26/ros2_ws/build/ros2jazzy_opencv/install.log --single-version-externally-managed install_data

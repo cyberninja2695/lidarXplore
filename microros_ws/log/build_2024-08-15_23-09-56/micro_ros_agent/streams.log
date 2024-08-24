@@ -1,0 +1,571 @@
+[0.016s] Invoking command in '/home/nijin26/microros_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/nijin26/microros_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nijin26/microros_ws/install/micro_ros_msgs:/home/nijin26/microros_ws/install/micro_ros_setup:/home/nijin26/ros2_ws/install/pkg_template_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nijin26/microros_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nijin26/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/nijin26/microros_ws/install/micro_ros_agent
+[0.027s] Not searching for unused variables given on the command line.
+[0.207s] -- The C compiler identification is GNU 13.2.0
+[0.228s] -- Detecting C compiler ABI info
+[0.370s] -- Detecting C compiler ABI info - done
+[0.387s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.388s] -- Detecting C compile features
+[0.388s] -- Detecting C compile features - done
+[0.478s] -- The CXX compiler identification is GNU 13.2.0
+[0.500s] -- Detecting CXX compiler ABI info
+[0.664s] -- Detecting CXX compiler ABI info - done
+[0.699s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.699s] -- Detecting CXX compile features
+[0.700s] -- Detecting CXX compile features - done
+[0.858s] -- Configuring done (0.8s)
+[0.878s] -- Generating done (0.0s)
+[0.880s] -- Build files have been written to: /home/nijin26/microros_ws/build/micro_ros_agent
+[0.888s] Invoked command in '/home/nijin26/microros_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/nijin26/microros_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nijin26/microros_ws/install/micro_ros_msgs:/home/nijin26/microros_ws/install/micro_ros_setup:/home/nijin26/ros2_ws/install/pkg_template_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nijin26/microros_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nijin26/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/nijin26/microros_ws/install/micro_ros_agent
+[0.890s] Invoking command in '/home/nijin26/microros_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/nijin26/microros_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nijin26/microros_ws/install/micro_ros_msgs:/home/nijin26/microros_ws/install/micro_ros_setup:/home/nijin26/ros2_ws/install/pkg_template_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nijin26/microros_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nijin26/microros_ws/build/micro_ros_agent -- -j12 -l12
+[0.968s] [  6%] [34m[1mCreating directories for 'xrceagent'[0m
+[1.010s] [ 12%] [34m[1mPerforming download step (git clone) for 'xrceagent'[0m
+[1.042s] Cloning into 'xrceagent'...
+[3.208s] HEAD is now at 7362281 Release v2.4.3
+[3.439s] [ 18%] [34m[1mPerforming update step for 'xrceagent'[0m
+[3.480s] [ 25%] [34m[1mNo patch step for 'xrceagent'[0m
+[3.520s] [ 31%] [34m[1mPerforming configure step for 'xrceagent'[0m
+[3.534s] loading initial cache file /home/nijin26/microros_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+[3.630s] -- The C compiler identification is GNU 13.2.0
+[3.651s] -- Detecting C compiler ABI info
+[3.798s] -- Detecting C compiler ABI info - done
+[3.819s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.819s] -- Detecting C compile features
+[3.820s] -- Detecting C compile features - done
+[3.915s] -- The CXX compiler identification is GNU 13.2.0
+[3.935s] -- Detecting CXX compiler ABI info
+[4.095s] -- Detecting CXX compiler ABI info - done
+[4.113s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.114s] -- Detecting CXX compile features
+[4.115s] -- Detecting CXX compile features - done
+[4.230s] -- Configuring done (0.7s)
+[4.237s] -- Generating done (0.0s)
+[4.238s] -- Build files have been written to: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[4.270s] [ 37%] [34m[1mPerforming build step for 'xrceagent'[0m
+[4.335s] [  6%] [34m[1mCreating directories for 'spdlog'[0m
+[4.376s] [ 12%] [34m[1mPerforming download step (git clone) for 'spdlog'[0m
+[4.408s] Cloning into 'spdlog'...
+[37.445s] HEAD is now at eb322062 Bump version to 1.9.2
+[37.523s] [ 18%] [34m[1mPerforming update step for 'spdlog'[0m
+[37.562s] [ 25%] [34m[1mNo patch step for 'spdlog'[0m
+[37.601s] [ 31%] [34m[1mPerforming configure step for 'spdlog'[0m
+[37.615s] loading initial cache file /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/tmp/spdlog-cache-.cmake
+[37.715s] -- The CXX compiler identification is GNU 13.2.0
+[37.740s] -- Detecting CXX compiler ABI info
+[37.907s] -- Detecting CXX compiler ABI info - done
+[37.924s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[37.924s] -- Detecting CXX compile features
+[37.925s] -- Detecting CXX compile features - done
+[37.926s] -- Build spdlog: 1.9.2
+[38.133s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[38.315s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[38.316s] -- Found Threads: TRUE  
+[38.317s] -- Build type: Release
+[38.318s] -- Generating example(s)
+[38.319s] -- Generating install
+[38.468s] -- Configuring done (0.9s)
+[38.479s] -- Generating done (0.0s)
+[38.481s] -- Build files have been written to: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build
+[38.511s] [ 37%] [34m[1mPerforming build step for 'spdlog'[0m
+[38.576s] [ 10%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/spdlog.cpp.o[0m
+[38.576s] [ 20%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/async.cpp.o[0m
+[38.577s] [ 30%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/file_sinks.cpp.o[0m
+[38.579s] [ 40%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o[0m
+[38.580s] [ 50%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/color_sinks.cpp.o[0m
+[38.582s] [ 60%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/fmt.cpp.o[0m
+[38.582s] [ 70%] [32mBuilding CXX object CMakeFiles/spdlog.dir/src/cfg.cpp.o[0m
+[52.767s] [ 80%] [32m[1mLinking CXX static library libspdlog.a[0m
+[55.730s] [ 80%] Built target spdlog
+[55.761s] [ 90%] [32mBuilding CXX object example/CMakeFiles/example.dir/example.cpp.o[0m
+[63.670s] [100%] [32m[1mLinking CXX executable example[0m
+[63.824s] [100%] Built target example
+[63.866s] [ 43%] [34m[1mPerforming install step for 'spdlog'[0m
+[63.947s] [ 80%] Built target spdlog
+[63.985s] [100%] Built target example
+[64.013s] [36mInstall the project...[0m
+[64.026s] -- Install configuration: "Release"
+[64.027s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include
+[64.027s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog
+[64.027s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/spdlog.h
+[64.027s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/async.h
+[64.027s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/logger.h
+[64.028s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg
+[64.028s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/helpers.h
+[64.028s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/helpers-inl.h
+[64.028s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/argv.h
+[64.028s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/env.h
+[64.028s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/async_logger-inl.h
+[64.028s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/logger-inl.h
+[64.029s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/stopwatch.h
+[64.029s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt
+[64.029s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bin_to_hex.h
+[64.029s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/chrono.h
+[64.029s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/fmt.h
+[64.029s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/xchar.h
+[64.029s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/ostr.h
+[64.030s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/compile.h
+[64.030s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fwd.h
+[64.030s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/version.h
+[64.030s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/common.h
+[64.030s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/spdlog-inl.h
+[64.031s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/formatter.h
+[64.031s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/async_logger.h
+[64.031s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks
+[64.031s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_sinks-inl.h
+[64.031s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/basic_file_sink-inl.h
+[64.032s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/base_sink-inl.h
+[64.032s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/syslog_sink.h
+[64.032s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/rotating_file_sink-inl.h
+[64.032s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/qt_sinks.h
+[64.032s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/mongo_sink.h
+[64.033s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ansicolor_sink-inl.h
+[64.033s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/daily_file_sink.h
+[64.033s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_sinks.h
+[64.033s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/sink-inl.h
+[64.034s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/msvc_sink.h
+[64.034s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/rotating_file_sink.h
+[64.034s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/dist_sink.h
+[64.034s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/wincolor_sink-inl.h
+[64.035s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ansicolor_sink.h
+[64.035s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/basic_file_sink.h
+[64.035s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_color_sinks.h
+[64.035s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/null_sink.h
+[64.036s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/sink.h
+[64.036s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ostream_sink.h
+[64.036s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/dup_filter_sink.h
+[64.036s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/win_eventlog_sink.h
+[64.036s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/wincolor_sink.h
+[64.036s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/tcp_sink.h
+[64.036s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/android_sink.h
+[64.037s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ringbuffer_sink.h
+[64.037s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/hourly_file_sink.h
+[64.037s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/base_sink.h
+[64.037s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_color_sinks-inl.h
+[64.037s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/systemd_sink.h
+[64.037s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/tweakme.h
+[64.038s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/common-inl.h
+[64.038s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/pattern_formatter-inl.h
+[64.038s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/pattern_formatter.h
+[64.038s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details
+[64.038s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/fmt_helper.h
+[64.038s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/periodic_worker.h
+[64.039s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/periodic_worker-inl.h
+[64.039s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/circular_q.h
+[64.039s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg_buffer.h
+[64.039s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/registry.h
+[64.039s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/os.h
+[64.039s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/file_helper.h
+[64.040s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/os-inl.h
+[64.040s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/thread_pool-inl.h
+[64.040s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/synchronous_factory.h
+[64.040s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/backtracer-inl.h
+[64.040s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/registry-inl.h
+[64.041s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/tcp_client-windows.h
+[64.041s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/tcp_client.h
+[64.041s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/file_helper-inl.h
+[64.041s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg.h
+[64.041s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/console_globals.h
+[64.042s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg-inl.h
+[64.042s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/backtracer.h
+[64.042s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg_buffer-inl.h
+[64.042s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/mpmc_blocking_q.h
+[64.042s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/thread_pool.h
+[64.043s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/null_mutex.h
+[64.043s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/windows_include.h
+[64.043s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/libspdlog.a
+[64.045s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled/
+[64.046s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//format.h
+[64.046s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//color.h
+[64.046s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//ranges.h
+[64.046s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//args.h
+[64.046s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//ostream.h
+[64.047s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//os.h
+[64.047s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//locale.h
+[64.047s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//chrono.h
+[64.047s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//format-inl.h
+[64.048s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//core.h
+[64.048s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//xchar.h
+[64.048s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//compile.h
+[64.048s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//printf.h
+[64.049s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/pkgconfig/spdlog.pc
+[64.049s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigTargets.cmake
+[64.049s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+[64.050s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfig.cmake
+[64.050s] -- Installing: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigVersion.cmake
+[64.078s] [ 50%] [34m[1mCompleted 'spdlog'[0m
+[64.129s] [ 50%] Built target spdlog
+[64.162s] [ 56%] [34m[1mCreating directories for 'uagent'[0m
+[64.201s] [ 62%] [34m[1mNo download step for 'uagent'[0m
+[64.240s] [ 68%] [34m[1mNo update step for 'uagent'[0m
+[64.280s] [ 75%] [34m[1mNo patch step for 'uagent'[0m
+[64.319s] [ 81%] [34m[1mPerforming configure step for 'uagent'[0m
+[64.333s] loading initial cache file /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake
+[64.343s] -- Setting build type to 'Release' as none was specified.
+[64.743s] -- Found TinyXML2: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[65.001s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[65.053s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[65.205s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[65.207s] -- Found Threads: TRUE  
+[65.214s] -- Configuring done (0.9s)
+[65.232s] -- Generating done (0.0s)
+[65.233s] -- Build files have been written to: /home/nijin26/microros_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[65.263s] [ 87%] [34m[1mPerforming build step for 'uagent'[0m
+[65.341s] [  4%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o[0m
+[65.342s] [  7%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o[0m
+[65.342s] [ 11%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o[0m
+[65.342s] [ 11%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o[0m
+[65.343s] [ 14%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o[0m
+[65.343s] [  4%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o[0m
+[65.343s] [ 16%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o[0m
+[65.344s] [ 19%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o[0m
+[65.344s] [ 21%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o[0m
+[65.345s] [ 23%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o[0m
+[65.347s] [ 26%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o[0m
+[65.354s] [ 28%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o[0m
+[68.257s] [ 30%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o[0m
+[68.304s] [ 33%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o[0m
+[68.783s] [ 35%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o[0m
+[68.893s] [ 38%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o[0m
+[69.697s] [ 40%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o[0m
+[70.728s] [ 42%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o[0m
+[71.577s] [ 45%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o[0m
+[76.798s] [ 47%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/utils/ArgumentParser.cpp.o[0m
+[77.122s] [ 50%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o[0m
+[78.105s] [ 52%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o[0m
+[79.233s] [ 54%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/custom/CustomAgent.cpp.o[0m
+[80.408s] [ 57%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o[0m
+[80.921s] [ 59%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o[0m
+[81.662s] [ 61%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o[0m
+[82.862s] [ 64%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o[0m
+[82.887s] [ 66%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o[0m
+[87.590s] [ 69%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o[0m
+[87.690s] [ 71%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o[0m
+[90.799s] [ 73%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o[0m
+[92.116s] [ 76%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o[0m
+[94.020s] [ 78%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o[0m
+[94.619s] [ 80%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o[0m
+[95.617s] [ 83%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o[0m
+[96.863s] [ 85%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o[0m
+[96.965s] [ 88%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o[0m
+[98.573s] [ 90%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o[0m
+[98.861s] [ 92%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o[0m
+[98.948s] [ 95%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o[0m
+[99.251s] [ 97%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o[0m
+[116.624s] [100%] [32m[1mLinking CXX shared library libmicroxrcedds_agent.so[0m
+[117.407s] [100%] Built target microxrcedds_agent
+[117.452s] [34m[1mNo install step for 'uagent'[0m
+[117.495s] [34m[1mCompleted 'uagent'[0m
+[117.552s] Built target uagent
+[117.598s] [ 43%] [34m[1mPerforming install step for 'xrceagent'[0m
+[117.779s] [100%] Built target microxrcedds_agent
+[117.812s] [36mInstall the project...[0m
+[117.828s] -- Install configuration: "Release"
+[117.829s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.3
+[117.835s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4
+[117.836s] -- Set non-toolchain portion of runtime path of "/home/nijin26/microros_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.3" to ""
+[117.836s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so
+[117.837s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent
+[117.837s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/topic
+[117.837s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/topic/Topic.hpp
+[117.837s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/reader
+[117.837s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/reader/Reader.hpp
+[117.838s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/logger
+[117.838s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/logger/Logger.hpp
+[117.838s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/requester
+[117.838s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/requester/Requester.hpp
+[117.838s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/types
+[117.838s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/types/TopicPubSubType.hpp
+[117.838s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/types/Optional.hpp
+[117.839s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/types/SubMessageHeader.hpp
+[117.839s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/types/XRCETypes.hpp
+[117.839s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/types/MessageHeader.hpp
+[117.839s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/processor
+[117.839s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/processor/Processor.hpp
+[117.839s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/datawriter
+[117.840s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/datawriter/DataWriter.hpp
+[117.840s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/subscriber
+[117.841s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/subscriber/Subscriber.hpp
+[117.841s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/datareader
+[117.842s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/datareader/DataReader.hpp
+[117.842s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/participant
+[117.842s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/participant/Participant.hpp
+[117.842s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/Root.hpp
+[117.843s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/AgentInstance.hpp
+[117.843s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/object
+[117.843s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/object/XRCEObject.hpp
+[117.843s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/client
+[117.844s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/client/session
+[117.844s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/client/session/SessionInfo.hpp
+[117.844s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/client/session/Session.hpp
+[117.844s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream
+[117.844s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/InputStream.hpp
+[117.844s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/OutputStream.hpp
+[117.844s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/client/ProxyClient.hpp
+[117.845s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/utils
+[117.845s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/utils/TokenBucket.hpp
+[117.845s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/utils/Conversion.hpp
+[117.845s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/utils/SeqNum.hpp
+[117.845s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/utils/Color.hpp
+[117.845s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutex.hpp
+[117.846s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutexPriority.hpp
+[117.846s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/utils/Time.hpp
+[117.846s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/utils/ArgumentParser.hpp
+[117.846s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/utils/Functions.hpp
+[117.846s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware
+[117.846s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds
+[117.846s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp
+[117.847s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp
+[117.847s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/Middleware.hpp
+[117.847s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils
+[117.847s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp
+[117.847s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced
+[117.847s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp
+[117.848s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedEntities.hpp
+[117.848s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast
+[117.848s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastEntities.hpp
+[117.849s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp
+[117.849s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/publisher
+[117.849s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/publisher/Publisher.hpp
+[117.849s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport
+[117.850s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/SessionManager.hpp
+[117.850s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/util
+[117.850s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp
+[117.850s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp
+[117.850s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery
+[117.851s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp
+[117.851s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp
+[117.851s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp
+[117.851s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/custom
+[117.851s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/custom/CustomAgent.hpp
+[117.851s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint
+[117.852s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp
+[117.852s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp
+[117.852s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp
+[117.852s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp
+[117.852s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp
+[117.852s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp
+[117.853s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/Server.hpp
+[117.853s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/TransportRc.hpp
+[117.853s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp
+[117.853s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp
+[117.854s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp
+[117.854s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp
+[117.854s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp
+[117.854s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp
+[117.855s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp
+[117.855s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing
+[117.855s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp
+[117.856s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial
+[117.856s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h
+[117.856s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp
+[117.856s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp
+[117.857s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp
+[117.857s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp
+[117.857s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp
+[117.858s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/udp
+[117.858s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp
+[117.858s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp
+[117.858s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp
+[117.859s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp
+[117.859s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/can
+[117.859s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp
+[117.859s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p
+[117.859s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp
+[117.860s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp
+[117.860s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/visibility.hpp
+[117.860s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/Agent.hpp
+[117.860s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/replier
+[117.861s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/replier/Replier.hpp
+[117.861s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/scheduler
+[117.861s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/scheduler/Scheduler.hpp
+[117.861s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/scheduler/PacketScheduler.hpp
+[117.862s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/message
+[117.862s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/message/OutputMessage.hpp
+[117.862s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/message/Packet.hpp
+[117.862s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/message/InputMessage.hpp
+[117.862s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/p2p
+[117.863s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClientManager.hpp
+[117.863s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClient.hpp
+[117.863s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake
+[117.863s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake
+[117.864s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/uxr/agent/config.hpp
+[117.864s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/share/microxrcedds_agent/LICENSE
+[117.864s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake
+[117.864s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake
+[117.864s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_agent
+[117.865s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_agent/include
+[117.865s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog
+[117.865s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/spdlog.h
+[117.865s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/async.h
+[117.865s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/logger.h
+[117.865s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/cfg
+[117.866s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/cfg/helpers.h
+[117.866s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/cfg/helpers-inl.h
+[117.866s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/cfg/argv.h
+[117.866s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/cfg/env.h
+[117.866s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/async_logger-inl.h
+[117.867s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/logger-inl.h
+[117.867s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/stopwatch.h
+[117.867s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/fmt
+[117.867s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled
+[117.867s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/format.h
+[117.868s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/color.h
+[117.868s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/ranges.h
+[117.869s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/args.h
+[117.869s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/ostream.h
+[117.869s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/os.h
+[117.869s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/locale.h
+[117.870s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/chrono.h
+[117.870s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/format-inl.h
+[117.870s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/core.h
+[117.871s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/xchar.h
+[117.871s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/compile.h
+[117.871s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/printf.h
+[117.871s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/fmt/bin_to_hex.h
+[117.872s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/fmt/chrono.h
+[117.872s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/fmt/fmt.h
+[117.872s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/fmt/xchar.h
+[117.872s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/fmt/ostr.h
+[117.872s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/fmt/compile.h
+[117.873s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/fwd.h
+[117.873s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/version.h
+[117.873s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/common.h
+[117.873s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/spdlog-inl.h
+[117.873s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/formatter.h
+[117.874s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/async_logger.h
+[117.874s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks
+[117.874s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_sinks-inl.h
+[117.874s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/basic_file_sink-inl.h
+[117.875s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/base_sink-inl.h
+[117.875s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/syslog_sink.h
+[117.875s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/rotating_file_sink-inl.h
+[117.875s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/qt_sinks.h
+[117.876s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/mongo_sink.h
+[117.876s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/ansicolor_sink-inl.h
+[117.876s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/daily_file_sink.h
+[117.876s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_sinks.h
+[117.876s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/sink-inl.h
+[117.877s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/msvc_sink.h
+[117.877s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/rotating_file_sink.h
+[117.877s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/dist_sink.h
+[117.878s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/wincolor_sink-inl.h
+[117.878s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/ansicolor_sink.h
+[117.878s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/basic_file_sink.h
+[117.878s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_color_sinks.h
+[117.879s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/null_sink.h
+[117.879s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/sink.h
+[117.879s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/ostream_sink.h
+[117.879s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/dup_filter_sink.h
+[117.879s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/win_eventlog_sink.h
+[117.879s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/wincolor_sink.h
+[117.879s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/tcp_sink.h
+[117.880s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/android_sink.h
+[117.880s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/ringbuffer_sink.h
+[117.880s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/hourly_file_sink.h
+[117.880s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/base_sink.h
+[117.880s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_color_sinks-inl.h
+[117.881s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/sinks/systemd_sink.h
+[117.881s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/tweakme.h
+[117.881s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/common-inl.h
+[117.881s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/pattern_formatter-inl.h
+[117.881s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/pattern_formatter.h
+[117.882s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/details
+[117.882s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/details/fmt_helper.h
+[117.882s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/details/periodic_worker.h
+[117.883s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/details/periodic_worker-inl.h
+[117.883s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/details/circular_q.h
+[117.884s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/details/log_msg_buffer.h
+[117.884s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/details/registry.h
+[117.884s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/details/os.h
+[117.884s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/details/file_helper.h
+[117.884s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/details/os-inl.h
+[117.885s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/details/thread_pool-inl.h
+[117.885s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/details/synchronous_factory.h
+[117.885s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/details/backtracer-inl.h
+[117.885s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/details/registry-inl.h
+[117.885s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/details/tcp_client-windows.h
+[117.885s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/details/tcp_client.h
+[117.886s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/details/file_helper-inl.h
+[117.886s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/details/log_msg.h
+[117.886s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/details/console_globals.h
+[117.886s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/details/log_msg-inl.h
+[117.886s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/details/backtracer.h
+[117.886s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/details/log_msg_buffer-inl.h
+[117.887s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/details/mpmc_blocking_q.h
+[117.887s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/details/thread_pool.h
+[117.887s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/details/null_mutex.h
+[117.887s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/include/spdlog/details/windows_include.h
+[117.887s] -- Up-to-date: /home/nijin26/microros_ws/install/micro_ros_agent/lib
+[117.887s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/lib/libspdlog.a
+[117.890s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/lib/cmake
+[117.890s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/lib/cmake/spdlog
+[117.891s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfig.cmake
+[117.891s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigTargets.cmake
+[117.891s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigVersion.cmake
+[117.892s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+[117.892s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/lib/pkgconfig
+[117.892s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/lib/pkgconfig/spdlog.pc
+[117.927s] [ 50%] [34m[1mCompleted 'xrceagent'[0m
+[117.984s] [ 50%] Built target xrceagent
+[118.019s] [ 56%] [34m[1mCreating directories for 'micro_ros_agent'[0m
+[118.063s] [ 62%] [34m[1mNo download step for 'micro_ros_agent'[0m
+[118.108s] [ 68%] [34m[1mNo update step for 'micro_ros_agent'[0m
+[118.153s] [ 75%] [34m[1mNo patch step for 'micro_ros_agent'[0m
+[118.197s] [ 81%] [34m[1mPerforming configure step for 'micro_ros_agent'[0m
+[118.212s] loading initial cache file /home/nijin26/microros_ws/build/micro_ros_agent/micro_ros_agent-prefix/tmp/micro_ros_agent-cache-.cmake
+[118.223s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[118.495s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[118.841s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[118.860s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[119.042s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[119.043s] -- Found Threads: TRUE  
+[119.096s] -- Found rosidl_cmake: 4.6.3 (/opt/ros/jazzy/share/rosidl_cmake/cmake)
+[119.100s] -- Found rosidl_adapter: 4.6.3 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[119.120s] -- Found fastrtps_cmake_module: 3.6.0 (/opt/ros/jazzy/share/fastrtps_cmake_module/cmake)
+[119.145s] -- Found rmw_dds_common: 3.1.0 (/opt/ros/jazzy/share/rmw_dds_common/cmake)
+[119.222s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[119.248s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[119.263s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[119.297s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[119.870s] -- Found rmw_fastrtps_shared_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_shared_cpp/cmake)
+[120.050s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[120.054s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[120.059s] -- Found ament_cmake_gtest: 2.5.2 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[120.061s] -- Found micro_ros_msgs: 5.0.2 (/home/nijin26/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake)
+[120.248s] -- Configuring done (2.0s)
+[120.263s] -- Generating done (0.0s)
+[120.266s] -- Build files have been written to: /home/nijin26/microros_ws/build/micro_ros_agent
+[120.302s] [ 87%] [34m[1mPerforming build step for 'micro_ros_agent'[0m
+[120.371s] [ 50%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o[0m
+[120.372s] [ 50%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o[0m
+[120.372s] [ 50%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o[0m
+[120.372s] [ 66%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o[0m
+[120.378s] [ 83%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o[0m
+[130.026s] [100%] [32m[1mLinking CXX executable micro_ros_agent[0m
+[130.632s] [100%] Built target micro_ros_agent
+[130.672s] [34m[1mNo install step for 'micro_ros_agent'[0m
+[130.710s] [34m[1mCompleted 'micro_ros_agent'[0m
+[130.760s] Built target micro_ros_agent
+[130.777s] Invoked command in '/home/nijin26/microros_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/nijin26/microros_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nijin26/microros_ws/install/micro_ros_msgs:/home/nijin26/microros_ws/install/micro_ros_setup:/home/nijin26/ros2_ws/install/pkg_template_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nijin26/microros_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nijin26/microros_ws/build/micro_ros_agent -- -j12 -l12
+[130.828s] Invoking command in '/home/nijin26/microros_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/nijin26/microros_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nijin26/microros_ws/install/micro_ros_msgs:/home/nijin26/microros_ws/install/micro_ros_setup:/home/nijin26/ros2_ws/install/pkg_template_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nijin26/microros_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nijin26/microros_ws/build/micro_ros_agent
+[130.840s] -- Install configuration: ""
+[130.840s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+[130.840s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+[130.841s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+[130.841s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+[130.841s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+[130.841s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+[130.842s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+[130.842s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+[130.842s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+[130.842s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+[130.843s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+[130.843s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+[130.843s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+[130.843s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+[130.844s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+[130.844s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml
+[130.844s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+[130.846s] -- Set non-toolchain portion of runtime path of "/home/nijin26/microros_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent" to ""
+[130.846s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/share/micro_ros_agent/launch
+[130.846s] -- Installing: /home/nijin26/microros_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py
+[130.849s] Invoked command in '/home/nijin26/microros_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/nijin26/microros_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nijin26/microros_ws/install/micro_ros_msgs:/home/nijin26/microros_ws/install/micro_ros_setup:/home/nijin26/ros2_ws/install/pkg_template_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nijin26/ros2_ws/install/ros2jazzy_opencv:/home/nijin26/ros2_ws/install/pkg_udemy_course:/home/nijin26/ros2_ws/install/pkg_template_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nijin26/microros_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nijin26/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nijin26/microros_ws/build/micro_ros_agent

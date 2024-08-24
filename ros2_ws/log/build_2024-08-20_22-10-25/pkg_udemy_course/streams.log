@@ -1,0 +1,22 @@
+[4.582s] Invoking command in '/home/nijin26/ros2_ws/src/pkg_udemy_course': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nijin26/ros2_ws/build/pkg_udemy_course/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nijin26/ros2_ws/install/pkg_udemy_course/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_udemy_course build --build-base /home/nijin26/ros2_ws/build/pkg_udemy_course/build install --record /home/nijin26/ros2_ws/build/pkg_udemy_course/install.log --single-version-externally-managed install_data
+[4.889s] running egg_info
+[4.915s] writing ../../build/pkg_udemy_course/pkg_udemy_course.egg-info/PKG-INFO
+[4.915s] writing dependency_links to ../../build/pkg_udemy_course/pkg_udemy_course.egg-info/dependency_links.txt
+[4.915s] writing entry points to ../../build/pkg_udemy_course/pkg_udemy_course.egg-info/entry_points.txt
+[4.915s] writing requirements to ../../build/pkg_udemy_course/pkg_udemy_course.egg-info/requires.txt
+[4.916s] writing top-level names to ../../build/pkg_udemy_course/pkg_udemy_course.egg-info/top_level.txt
+[4.963s] reading manifest file '../../build/pkg_udemy_course/pkg_udemy_course.egg-info/SOURCES.txt'
+[4.967s] writing manifest file '../../build/pkg_udemy_course/pkg_udemy_course.egg-info/SOURCES.txt'
+[4.967s] running build
+[4.967s] running build_py
+[4.967s] running install
+[4.973s] running install_lib
+[4.996s] running install_data
+[4.996s] running install_egg_info
+[5.027s] removing '/home/nijin26/ros2_ws/install/pkg_udemy_course/lib/python3.12/site-packages/pkg_udemy_course-0.0.0-py3.12.egg-info' (and everything under it)
+[5.027s] Copying ../../build/pkg_udemy_course/pkg_udemy_course.egg-info to /home/nijin26/ros2_ws/install/pkg_udemy_course/lib/python3.12/site-packages/pkg_udemy_course-0.0.0-py3.12.egg-info
+[5.050s] running install_scripts
+[5.223s] Installing node_number_counter script to /home/nijin26/ros2_ws/install/pkg_udemy_course/lib/pkg_udemy_course
+[5.223s] Installing node_number_publisher script to /home/nijin26/ros2_ws/install/pkg_udemy_course/lib/pkg_udemy_course
+[5.224s] writing list of installed files to '/home/nijin26/ros2_ws/build/pkg_udemy_course/install.log'
+[5.273s] Invoked command in '/home/nijin26/ros2_ws/src/pkg_udemy_course' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nijin26/ros2_ws/build/pkg_udemy_course/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nijin26/ros2_ws/install/pkg_udemy_course/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_udemy_course build --build-base /home/nijin26/ros2_ws/build/pkg_udemy_course/build install --record /home/nijin26/ros2_ws/build/pkg_udemy_course/install.log --single-version-externally-managed install_data

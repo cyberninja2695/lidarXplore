@@ -1,0 +1,21 @@
+[1.627s] Invoking command in '/home/nijin26/ros2_ws/src/pkg_template_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nijin26/ros2_ws/build/pkg_template_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nijin26/ros2_ws/install/pkg_template_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_template_py build --build-base /home/nijin26/ros2_ws/build/pkg_template_py/build install --record /home/nijin26/ros2_ws/build/pkg_template_py/install.log --single-version-externally-managed install_data
+[1.966s] running egg_info
+[1.992s] writing ../../build/pkg_template_py/pkg_template_py.egg-info/PKG-INFO
+[1.992s] writing dependency_links to ../../build/pkg_template_py/pkg_template_py.egg-info/dependency_links.txt
+[1.992s] writing entry points to ../../build/pkg_template_py/pkg_template_py.egg-info/entry_points.txt
+[1.992s] writing requirements to ../../build/pkg_template_py/pkg_template_py.egg-info/requires.txt
+[1.992s] writing top-level names to ../../build/pkg_template_py/pkg_template_py.egg-info/top_level.txt
+[2.047s] reading manifest file '../../build/pkg_template_py/pkg_template_py.egg-info/SOURCES.txt'
+[2.048s] writing manifest file '../../build/pkg_template_py/pkg_template_py.egg-info/SOURCES.txt'
+[2.048s] running build
+[2.048s] running build_py
+[2.048s] running install
+[2.056s] running install_lib
+[2.082s] running install_data
+[2.083s] running install_egg_info
+[2.112s] removing '/home/nijin26/ros2_ws/install/pkg_template_py/lib/python3.12/site-packages/pkg_template_py-0.0.0-py3.12.egg-info' (and everything under it)
+[2.112s] Copying ../../build/pkg_template_py/pkg_template_py.egg-info to /home/nijin26/ros2_ws/install/pkg_template_py/lib/python3.12/site-packages/pkg_template_py-0.0.0-py3.12.egg-info
+[2.113s] running install_scripts
+[2.299s] Installing node_template_py script to /home/nijin26/ros2_ws/install/pkg_template_py/lib/pkg_template_py
+[2.300s] writing list of installed files to '/home/nijin26/ros2_ws/build/pkg_template_py/install.log'
+[2.356s] Invoked command in '/home/nijin26/ros2_ws/src/pkg_template_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nijin26/ros2_ws/build/pkg_template_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nijin26/ros2_ws/install/pkg_template_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_template_py build --build-base /home/nijin26/ros2_ws/build/pkg_template_py/build install --record /home/nijin26/ros2_ws/build/pkg_template_py/install.log --single-version-externally-managed install_data

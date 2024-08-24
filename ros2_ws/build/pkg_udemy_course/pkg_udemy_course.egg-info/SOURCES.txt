@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/pkg_udemy_course/pkg_udemy_course.egg-info/PKG-INFO
+../../build/pkg_udemy_course/pkg_udemy_course.egg-info/SOURCES.txt
+../../build/pkg_udemy_course/pkg_udemy_course.egg-info/dependency_links.txt
+../../build/pkg_udemy_course/pkg_udemy_course.egg-info/entry_points.txt
+../../build/pkg_udemy_course/pkg_udemy_course.egg-info/requires.txt
+../../build/pkg_udemy_course/pkg_udemy_course.egg-info/top_level.txt
+../../build/pkg_udemy_course/pkg_udemy_course.egg-info/zip-safe
+pkg_udemy_course/__init__.py
+pkg_udemy_course/node_number_counter.py
+pkg_udemy_course/node_number_publisher.py
+resource/pkg_udemy_course
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
