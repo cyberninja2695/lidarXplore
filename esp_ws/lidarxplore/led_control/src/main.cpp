@@ -44,6 +44,11 @@ rclc_executor_t executor_sub;
 
 #define LED_PIN LED_BUILTIN
 
+const int HEADLIGHTS_LEFT_START = 48;
+const int HEADLIGHTS_LEFT_END = 52;
+const int HEADLIGHTS_RIGHT_START = 36;
+const int HEADLIGHTS_RIGHT_END = 40;
+
 #define RCCHECK(fn)              \
   {                              \
     rcl_ret_t temp_rc = fn;      \
@@ -80,6 +85,7 @@ void timer_callback(rcl_timer_t *timer, int64_t last_call_time)
   {
     RCSOFTCHECK(rcl_publish(&publisher, &msg_heartbeat, NULL));
     msg_heartbeat.data++;
+    //Serial.println("Heartbeat printed");
   }
 }
 
@@ -192,28 +198,30 @@ void controlLED(int data) {
   if(data%2 == 0) {
     digitalWrite(LED_PIN, LOW);
     ///*
-    //for(int i=37; i<42; i++) {
-    for(int i=37; i<38; i++) {
+    for(int i=HEADLIGHTS_LEFT_START; i<=HEADLIGHTS_LEFT_END; i++) {
+    //for(int i=37; i<38; i++) {
       strip.setPixelColor(i, strip.Color(0, 0, 0));
     }
-    //for(int i=49; i<54; i++) {
-    for(int i=52; i<53; i++) {
+    for(int i=HEADLIGHTS_RIGHT_START; i<=HEADLIGHTS_RIGHT_END; i++) {
+    //for(int i=52; i<53; i++) {
       strip.setPixelColor(i, strip.Color(0, 0, 0));
     }
+    //Serial.println("Headlights OFF");
     //*/
 
   }
   else if(data%2 != 0) {
     digitalWrite(LED_PIN, HIGH);
     ///*
-    //for(int i=37; i<42; i++) {
-    for(int i=37; i<38; i++) {
-      strip.setPixelColor(i, strip.Color(0, 255, 0));
+    for(int i=HEADLIGHTS_LEFT_START; i<=HEADLIGHTS_LEFT_END; i++) {
+    //for(int i=37; i<38; i++) {
+      strip.setPixelColor(i, strip.Color(128, 0, 32));
     }
-    //for(int i=49; i<54; i++) {
-    for(int i=52; i<53; i++) {
-      strip.setPixelColor(i, strip.Color(0, 255, 0));
+    for(int i=HEADLIGHTS_RIGHT_START; i<=HEADLIGHTS_RIGHT_END; i++) {
+    //for(int i=52; i<53; i++) {
+      strip.setPixelColor(i, strip.Color(128, 0, 32));
     }
+    //Serial.println("Headlights ON");
     //*/
  
   }
