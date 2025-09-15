@@ -23,8 +23,36 @@ const int NUM_LEDS = 90;
 
 Adafruit_NeoPixel strip(NUM_LEDS, PIN_LED_DATA, NEO_GRB + NEO_KHZ800);
 
+#define LED_PIN LED_BUILTIN
+
+const int HEADLIGHT_LEFT_INNER = 49;
+const int HEADLIGHT_LEFT_OUTER = 52;
+const int HEADLIGHT_RIGHT_OUTER = 37;
+const int HEADLIGHT_RIGHT_INNER = 40;
+
+const int BLINKER_LEFT_INNER = 53;
+const int BLINKER_LEFT_OUTER = 56;
+const int BLINKER_RIGHT_OUTER = 33;
+const int BLINKER_RIGHT_INNER = 36;
+
+typedef enum LED_Mode {
+  LIGHTS_OFF,
+  HEADLIGHT_ON,
+  HEADLIGHT_OFF,
+  TAILLIGHT_ON,
+  TAILLIGHT_OFF,
+  BLINK_LEFT_ON,
+  BLINK_LEFT_OFF,
+  BLINK_RIGHT_ON,
+  BLINK_RIGHT_OFF,
+  HAZARD_ON,
+  HAZARD_OFF
+};
+LED_Mode led_mode = LIGHTS_OFF;
+
 //user function declarations
-void controlLED(int data);
+void setLEDMode (int data);
+void controlLED();
 
 
 rcl_node_t node;
@@ -41,13 +69,6 @@ rcl_timer_t timer;
 rcl_subscription_t subscriber;
 std_msgs__msg__Int32 msg_led;
 rclc_executor_t executor_sub;
-
-#define LED_PIN LED_BUILTIN
-
-const int HEADLIGHTS_LEFT_START = 48;
-const int HEADLIGHTS_LEFT_END = 52;
-const int HEADLIGHTS_RIGHT_START = 36;
-const int HEADLIGHTS_RIGHT_END = 40;
 
 #define RCCHECK(fn)              \
   {                              \
@@ -97,7 +118,7 @@ void timer_callback(rcl_timer_t *timer, int64_t last_call_time)
 void subscription_callback(const void *msgin)
 {
   const std_msgs__msg__Int32 *msg_led = (const std_msgs__msg__Int32 *)msgin;
-  controlLED(msg_led->data);
+  setLEDMode(msg_led->data);
 }
 
 
@@ -127,7 +148,7 @@ void setup()
   pinMode(LED_PIN, OUTPUT);
   digitalWrite(LED_PIN, HIGH);
 
-  delay(2000);
+  delay(500);
 
   allocator = rcl_get_default_allocator();
 
@@ -155,7 +176,7 @@ void setup()
       "lidarxplore_heartbeat"));
 
   // create timer, called every 1000 ms to publish heartbeat
-  const unsigned int timer_timeout = 1000;
+  const unsigned int timer_timeout = 500;
   RCCHECK(rclc_timer_init_default(
       &timer,
       &support,
@@ -174,9 +195,10 @@ void setup()
 
 void loop()
 {
-  delay(100);
+  //delay(100);
   RCCHECK(rclc_executor_spin_some(&executor_pub, RCL_MS_TO_NS(100)));
   RCCHECK(rclc_executor_spin_some(&executor_sub, RCL_MS_TO_NS(100)));
+  controlLED();
 }
 
 
@@ -194,36 +216,114 @@ void loop()
 /********** USER FUNCTION DEFINITION **********/
 //---------------------------------------------/
 
-void controlLED(int data) {
-  if(data%2 == 0) {
+void setLEDMode (int data) {
+  //if(data%2 == 0) led_mode = HEADLIGHT_OFF;
+  if(data == 0) led_mode = HEADLIGHT_ON;
+  //else if (data%4 ==1) led_mode = BLINK_LEFT_ON;
+  //else if (data%4 ==2) led_mode = BLINK_LEFT_OFF;
+  //else if (data%4 ==1) led_mode = BLINK_RIGHT_ON;
+  //else if (data%4 ==2) led_mode = BLINK_RIGHT_OFF;
+  else if (data%2 == 0) led_mode = HAZARD_ON;
+  else if (data%2 == 1) led_mode = HAZARD_OFF;
+}
+
+
+void controlLED() {
+  if(led_mode == LIGHTS_OFF) {
     digitalWrite(LED_PIN, LOW);
     ///*
-    for(int i=HEADLIGHTS_LEFT_START; i<=HEADLIGHTS_LEFT_END; i++) {
-    //for(int i=37; i<38; i++) {
+    for(int i=HEADLIGHT_LEFT_INNER; i<=BLINKER_LEFT_OUTER; i++) {
       strip.setPixelColor(i, strip.Color(0, 0, 0));
     }
-    for(int i=HEADLIGHTS_RIGHT_START; i<=HEADLIGHTS_RIGHT_END; i++) {
-    //for(int i=52; i<53; i++) {
+    for(int i=BLINKER_RIGHT_OUTER; i<=HEADLIGHT_RIGHT_INNER; i++) {
       strip.setPixelColor(i, strip.Color(0, 0, 0));
     }
-    //Serial.println("Headlights OFF");
+    //TODO: Add Tail Lights
+    strip.show();
     //*/
+  }
 
-  }
-  else if(data%2 != 0) {
-    digitalWrite(LED_PIN, HIGH);
+  if(led_mode == HEADLIGHT_OFF) {
+    digitalWrite(LED_PIN, LOW);
     ///*
-    for(int i=HEADLIGHTS_LEFT_START; i<=HEADLIGHTS_LEFT_END; i++) {
-    //for(int i=37; i<38; i++) {
-      strip.setPixelColor(i, strip.Color(128, 0, 32));
+    for(int i=HEADLIGHT_LEFT_INNER; i<=HEADLIGHT_LEFT_OUTER; i++) {
+      strip.setPixelColor(i, strip.Color(0, 0, 0));
     }
-    for(int i=HEADLIGHTS_RIGHT_START; i<=HEADLIGHTS_RIGHT_END; i++) {
-    //for(int i=52; i<53; i++) {
-      strip.setPixelColor(i, strip.Color(128, 0, 32));
+    for(int i=HEADLIGHT_RIGHT_OUTER; i<=HEADLIGHT_RIGHT_INNER; i++) {
+      strip.setPixelColor(i, strip.Color(0, 0, 0));
     }
-    //Serial.println("Headlights ON");
+    strip.show();
     //*/
- 
   }
-  strip.show();
+
+  else if(led_mode == HEADLIGHT_ON) {
+    digitalWrite(LED_PIN, HIGH);
+    int i= 0;
+    while(i < 4) {
+      strip.setPixelColor(HEADLIGHT_LEFT_INNER+i, strip.Color(128, 0, 32));
+      strip.setPixelColor(HEADLIGHT_RIGHT_INNER-i, strip.Color(128, 0, 32));
+      i++;
+      strip.show();
+      delay(50);
+    }
+  }
+
+  else if(led_mode == BLINK_LEFT_ON) {
+    digitalWrite(LED_PIN, LOW);
+    for (int i = BLINKER_LEFT_INNER; i <= BLINKER_LEFT_OUTER; i++) {
+      strip.setPixelColor(i, strip.Color(255, 100, 0));
+    }
+    //TODO: Add Tail Blinkers
+    strip.show();
+  }
+
+  else if(led_mode == BLINK_LEFT_OFF) {
+    digitalWrite(LED_PIN, LOW);
+    for (int i = BLINKER_LEFT_INNER; i <= BLINKER_LEFT_OUTER; i++) {
+      strip.setPixelColor(i, strip.Color(0, 0, 0));
+    }
+    //TODO: Add Tail Blinkers
+    strip.show();
+  }
+
+  else if(led_mode == BLINK_RIGHT_ON) {
+    digitalWrite(LED_PIN, LOW);
+    for (int i = BLINKER_RIGHT_OUTER; i <= BLINKER_RIGHT_INNER; i++) {
+      strip.setPixelColor(i, strip.Color(255, 100, 0));
+    }
+    //TODO: Add Tail Blinkers
+    strip.show();
+  }
+
+  else if(led_mode == BLINK_RIGHT_OFF) {
+    digitalWrite(LED_PIN, LOW);
+    for (int i = BLINKER_RIGHT_OUTER; i <= BLINKER_RIGHT_INNER; i++) {
+      strip.setPixelColor(i, strip.Color(0, 0, 0));
+    }
+    //TODO: Add Tail Blinkers
+    strip.show();
+  }
+
+  else if(led_mode == HAZARD_ON) {
+    for (int i = BLINKER_LEFT_INNER; i <= BLINKER_LEFT_OUTER; i++) {
+      strip.setPixelColor(i, strip.Color(255, 100, 0));
+    }
+    for (int i = BLINKER_RIGHT_OUTER; i <= BLINKER_RIGHT_INNER; i++) {
+      strip.setPixelColor(i, strip.Color(255, 100, 0));
+    }
+    //TODO: Add Tail Blinkers
+    strip.show();
+  }
+
+  else if(led_mode == HAZARD_OFF) {
+    for (int i = BLINKER_LEFT_INNER; i <= BLINKER_LEFT_OUTER; i++) {
+      strip.setPixelColor(i, strip.Color(0, 0, 0));
+    }
+    for (int i = BLINKER_RIGHT_OUTER; i <= BLINKER_RIGHT_INNER; i++) {
+      strip.setPixelColor(i, strip.Color(0, 0, 0));
+    }
+    //TODO: Add Tail Blinkers
+    strip.show();
+  }
+
 }

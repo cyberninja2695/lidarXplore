@@ -106,7 +106,7 @@ void setup()
   pinMode(LED_PIN, OUTPUT);
   digitalWrite(LED_PIN, HIGH);
 
-  delay(2000);
+  delay(1000);
 
   allocator = rcl_get_default_allocator();
 

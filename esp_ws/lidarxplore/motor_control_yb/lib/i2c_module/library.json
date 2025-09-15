@@ -1,0 +1,8 @@
+{
+    "name": "i2c_module",
+    "version": "1.0.0",
+    "description": "I2C module for Yahboom 4 channel motor driver",
+    "frameworks": ["arduino", "espidf", "*"],
+    "platforms": ["espressif32", "native"],
+    "headers": "i2c_module.h"
+  }

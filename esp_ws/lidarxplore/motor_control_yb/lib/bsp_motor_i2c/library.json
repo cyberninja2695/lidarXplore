@@ -1,0 +1,7 @@
+{
+    "name": "bsp_motor_i2c",
+    "version": "1.0.0",
+    "description": "Motor control module for Yahboom 4 channel motor driver",
+    "platforms": ["espressif32", "native"],
+    "headers": "i2c_module.h"
+  }
