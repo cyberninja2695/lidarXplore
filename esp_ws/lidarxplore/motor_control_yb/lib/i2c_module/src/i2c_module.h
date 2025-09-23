@@ -24,6 +24,4 @@ esp_err_t i2c_module_init(void);
 esp_err_t i2cWrite(uint8_t addr, uint8_t reg, uint8_t len, uint8_t *data);
 esp_err_t i2cRead(uint8_t addr, uint8_t reg, uint8_t len, uint8_t *buf);
 
-//void test_function(void);
-
 #endif

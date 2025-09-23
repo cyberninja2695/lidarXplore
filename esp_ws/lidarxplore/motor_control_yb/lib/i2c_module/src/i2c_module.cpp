@@ -110,10 +110,3 @@ esp_err_t i2cRead(uint8_t addr, uint8_t reg, uint8_t len, uint8_t *buf)
     return err;
 }
 
-/*
-void test_function() 
-{
-    printf("Lib 1 Works");
-}
-*/
-

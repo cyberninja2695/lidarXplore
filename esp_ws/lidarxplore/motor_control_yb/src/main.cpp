@@ -6,6 +6,17 @@
 #include "sdkconfig.h"
 #include <bsp_motor_i2c.h>
 #include <i2c_module.h>
+#include <ota_module.h>
+
+#define FIRMWARE_VERSION 2
+#define TEST
+
+const char *ssid = "Vodafone-0444";
+const char *password = "rA4QDTbpAhG4Q68p";
+const char *versionUrl = "http://192.168.0.181:8000/version.txt";
+const char *firmwareUrl = "http://192.168.0.181:8000/firmware.bin";
+
+OTAUpdater ota(ssid, password, versionUrl, firmwareUrl, FIRMWARE_VERSION);
 
 
 #define delay_ms(ms) vTaskDelay(pdMS_TO_TICKS(ms)) // FreeRTOS millisecond delay macro
@@ -17,9 +28,11 @@
 void setup() {
 
 	Serial.begin(115200);
+	ota.begin();
+    ota.updateIfAvailable();
 
 	#ifdef TEST
-	test_function();
+	printf("Test mode ON ... \n");
 
 	#else
 	// Motor module iic communication initialization
@@ -97,6 +110,7 @@ void loop() {
 
 	#ifdef TEST
 	//Test
+	//printf("Test mode ON ... \n");
 	#else
 	static int i;
 	for(i=0;i<100;i++)

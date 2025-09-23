@@ -60,6 +60,4 @@ void Set_Pulse_line(uint16_t data);
 void Set_Pulse_Phase(uint16_t data);
 void Set_Wheel_dis(float data);
 
-void test_function(void);
-
 #endif

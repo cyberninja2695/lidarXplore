@@ -170,9 +170,3 @@ void Read_ALL_Enconder(void)
 	Encoder_Now[3] = buf[0]<<24|buf[1]<<16|buf2[0]<<8|buf2[1];
 	
 }
-
-void test_function() 
-{
-    Serial.println("library works");
-	//printf("Lib 1 Works");
-}

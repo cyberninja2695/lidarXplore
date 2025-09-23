@@ -1,0 +1,8 @@
+{
+    "name": "ota_module",
+    "version": "1.0.0",
+    "description": "OTA module for ESP32 wirelessOTA firmware updates",
+    "frameworks": ["arduino", "espidf", "*"],
+    "platforms": ["espressif32", "native"],
+    "headers": "ota_module.h"
+  }
