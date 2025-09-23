@@ -8,9 +8,9 @@ source_file = os.path.join(script_dir, ".pio", "build", "esp32-s3-devkitc-1", "f
 destination_file = os.path.join(script_dir, "deploy", "firmware.bin")
 
 # Clean deploy folder before writing new files
-if os.path.exists(os.path.dirname(destination_file)):
-    print(f"[POST-BUILD] Cleaning old deploy folder: {os.path.dirname(destination_file)}")
-    shutil.rmtree(os.path.dirname(destination_file))
+if os.path.exists(destination_file):
+    print(f"[POST-BUILD] Cleaning old firmware: {destination_file}")
+    os.remove(destination_file)
 
 # Ensure destination folder exists
 os.makedirs(os.path.dirname(destination_file), exist_ok=True)

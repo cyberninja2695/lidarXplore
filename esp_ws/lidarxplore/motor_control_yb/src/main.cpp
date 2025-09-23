@@ -10,6 +10,7 @@
 #include <credentials.h>
 
 #define FIRMWARE_VERSION 2
+
 #define TEST
 
 const char *ssid = SSID;
