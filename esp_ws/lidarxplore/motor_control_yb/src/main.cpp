@@ -7,14 +7,15 @@
 #include <bsp_motor_i2c.h>
 #include <i2c_module.h>
 #include <ota_module.h>
+#include <credentials.h>
 
 #define FIRMWARE_VERSION 2
 #define TEST
 
-const char *ssid = "Vodafone-0444";
-const char *password = "rA4QDTbpAhG4Q68p";
-const char *versionUrl = "http://192.168.0.181:8000/version.txt";
-const char *firmwareUrl = "http://192.168.0.181:8000/firmware.bin";
+const char *ssid = SSID;
+const char *password = PASSWORD;
+const char *versionUrl = VERSIONURL;
+const char *firmwareUrl = FIRMWAREURL;
 
 OTAUpdater ota(ssid, password, versionUrl, firmwareUrl, FIRMWARE_VERSION);
 
