@@ -2,10 +2,11 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 #include <Update.h>
+#include <WiFiClientSecure.h>
 
 OTAUpdater::OTAUpdater(const char *ssid, const char *password,
                        const char *versionUrl, const char *firmwareUrl,
-                       int currentVersion)
+                       const char *rootCA, int currentVersion)
     : ssid(ssid), password(password),
       versionUrl(versionUrl), firmwareUrl(firmwareUrl),
       currentVersion(currentVersion) {}
@@ -25,44 +26,48 @@ void OTAUpdater::connectWiFi() {
 }
 
 bool OTAUpdater::isUpdateAvailable(int &newVersion) {
-    HTTPClient http;
-    http.begin(versionUrl);
-    int httpCode = http.GET();
+    HTTPClient https;
+    WiFiClientSecure client;
+    client.setCACert(rootCA);
+    https.begin(client, versionUrl);
+    int httpCode = https.GET();
     if (httpCode != HTTP_CODE_OK) {
-        Serial.printf("Version check failed: %s\n", http.errorToString(httpCode).c_str());
-        http.end();
+        Serial.printf("Version check failed: %s\n", https.errorToString(httpCode).c_str());
+        https.end();
         return false;
     }
 
-    newVersion = http.getString().toInt();
-    http.end();
+    newVersion = https.getString().toInt();
+    https.end();
 
     Serial.printf("Current FW: %d | Available FW: %d\n", currentVersion, newVersion);
     return (newVersion > currentVersion);
 }
 
 void OTAUpdater::performOTA() {
-    HTTPClient http;
-    http.begin(firmwareUrl);
-    int httpCode = http.GET();
+    HTTPClient https;
+    WiFiClientSecure client;
+    client.setCACert(rootCA);
+    https.begin(client, firmwareUrl);
+    int httpCode = https.GET();
     if (httpCode != HTTP_CODE_OK) {
-        Serial.printf("Firmware download failed: %s\n", http.errorToString(httpCode).c_str());
-        http.end();
+        Serial.printf("Firmware download failed: %s\n", https.errorToString(httpCode).c_str());
+        https.end();
         return;
     }
 
-    int contentLength = http.getSize();
-    WiFiClient *stream = http.getStreamPtr();
+    int contentLength = https.getSize();
+    WiFiClient *stream = https.getStreamPtr();
 
     if (contentLength <= 0) {
         Serial.println("Content length invalid");
-        http.end();
+        https.end();
         return;
     }
 
     if (!Update.begin(contentLength)) {
         Serial.println("Not enough space for OTA");
-        http.end();
+        https.end();
         return;
     }
 
@@ -85,7 +90,7 @@ void OTAUpdater::performOTA() {
         Serial.printf("OTA Error: %s\n", Update.errorString());
     }
 
-    http.end();
+    https.end();
 }
 
 void OTAUpdater::updateIfAvailable() {

@@ -17,8 +17,9 @@ const char *ssid = SSID;
 const char *password = PASSWORD;
 const char *versionUrl = VERSIONURL;
 const char *firmwareUrl = FIRMWAREURL;
+const char *rootCA = ROOT_CA;
 
-OTAUpdater ota(ssid, password, versionUrl, firmwareUrl, FIRMWARE_VERSION);
+OTAUpdater ota(ssid, password, versionUrl, firmwareUrl, rootCA, FIRMWARE_VERSION);
 
 
 #define delay_ms(ms) vTaskDelay(pdMS_TO_TICKS(ms)) // FreeRTOS millisecond delay macro

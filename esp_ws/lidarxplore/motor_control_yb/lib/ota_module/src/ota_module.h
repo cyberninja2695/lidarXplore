@@ -26,7 +26,7 @@ class OTAUpdater {
 public:
     OTAUpdater(const char *ssid, const char *password,
                const char *versionUrl, const char *firmwareUrl,
-               int currentVersion);
+               const char *rootCA, int currentVersion);
 
     void begin();
     void updateIfAvailable();
@@ -36,6 +36,7 @@ private:
     const char *password;
     const char *versionUrl;
     const char *firmwareUrl;
+    const char *rootCA;
     int currentVersion;
 
     void connectWiFi();
