@@ -49,15 +49,22 @@ extern int16_t  Encoder_Offset[4];
 extern int Encoder_Now[4];
 
 
-
 void control_speed(int16_t m1,int16_t m2 ,int16_t m3,int16_t m4);
 void control_pwm(int16_t m1,int16_t m2 ,int16_t m3,int16_t m4);
-void Set_motor_type(uint8_t data);
-void Read_10_Enconder(void);
-void Read_ALL_Enconder(void);
-void Set_motor_deadzone(uint16_t data);
-void Set_Pulse_line(uint16_t data);
-void Set_Pulse_Phase(uint16_t data);
-void Set_Wheel_dis(float data);
+void set_motor_type(uint8_t data);
+void read_10_encoder(void);
+void read_all_encoder(void);
+void set_motor_deadzone(uint16_t data);
+void set_pulse_line(uint16_t data);
+void set_pulse_phase(uint16_t data);
+void set_wheel_dia(float data);
+
+void init_motor_bsp(uint8_t motor_type);
+int read_encoder_start();
+int32_t count_to_degree(int32_t count, uint16_t pulse_phase);
+int32_t degree_to_count(int32_t degree, uint16_t pulse_sphase);
+int calc_pwm_input(int pid_error);
+void pid_pos_control(int target_deg, int Kp, int Ki, int Kd);
+
 
 #endif
