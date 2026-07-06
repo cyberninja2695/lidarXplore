@@ -12,13 +12,13 @@ int Encoder_Now[4];
 static uint16_t pulse_phase; //Default reduction ratio
 static int encoder_start; //Encoder initial value
   
-//������תbytesλ //bytes 4������ ��Ϊfloat��4�ֽ�	Convert float to bytes //bytes 4 in length because float is 4 bytes
+//Convert float to bytes //bytes 4 in length because float is 4 bytes
 void float_to_bytes(float f, uint8_t *bytes) 
 {
     memcpy(bytes, &f, sizeof(float));
 }
 
-//bytesλת�ɸ�����	Convert bytes to floating point
+//Convert bytes to floating point
 float char2float(char *p)
 {
   float *p_Int;
@@ -29,13 +29,13 @@ float char2float(char *p)
   return x;
 }
 
-//���õ��	Configure the motor
+//Configure the motor
 void set_motor_type(uint8_t data)
 {	
 	i2cWrite(Motor_model_ADDR,MOTOR_TYPE_REG,2,&data);
 }
 
-//��������	Configuring Dead Zone
+//Configuring Dead Zone
 void set_motor_deadzone(uint16_t data)
 {
 	static uint8_t buf_tempzone[2];
@@ -46,7 +46,7 @@ void set_motor_deadzone(uint16_t data)
 	i2cWrite(Motor_model_ADDR,MOTOR_DeadZONE_REG,2,buf_tempzone);
 }
 
-//���ôŻ���	Configuring magnetic loop
+//Configuring magnetic loop
 void set_pulse_line(uint16_t data)
 {
 	static uint8_t buf_templine[2];
@@ -57,7 +57,7 @@ void set_pulse_line(uint16_t data)
 	i2cWrite(Motor_model_ADDR,MOTOR_PulseLine_REG,2,buf_templine);
 }
 
-//���ü��ٱ�	Configure the reduction ratio
+//Configure the reduction ratio
 void set_pulse_phase(uint16_t data)
 {
 	static uint8_t buf_tempPhase[2];
@@ -71,7 +71,7 @@ void set_pulse_phase(uint16_t data)
 }
 
 
-//����ֱ��	Configuration Diameter
+//Configuration Diameter
 void set_wheel_dia(float data)
 {
 	static uint8_t bytes[4];
@@ -81,8 +81,8 @@ void set_wheel_dia(float data)
 	i2cWrite(Motor_model_ADDR,WHEEL_DIA_REG,4,bytes);
 }
 
-//ֻ�ܿ��ƴ����������͵ĵ��	Can only control motors with encoders
-//�������:4��������ٶ�		Input parameters: speed of 4 motors
+//Can only control motors with encoders
+//Input parameters: speed of 4 motors
 void control_speed(int16_t m1,int16_t m2 ,int16_t m3,int16_t m4)
 {
 	static uint8_t speed[8];
@@ -104,9 +104,9 @@ void control_speed(int16_t m1,int16_t m2 ,int16_t m3,int16_t m4)
 }
 
 
-//���ƴ����������͵ĵ��	Control the motor with encoder type
-//�������:4�������pwm	PWM of 4 motors
-//�˺������Խ��ʵʱ�����������ݣ���ʵ��control_speed�Ĺ���	This function can combine the data of real-time encoder to realize the function of control_speed
+//Control the motor with encoder type
+//Input parameters:4 motors PWM
+//This function can combine the data of real-time encoder to realize the function of control_speed
 void control_pwm(int16_t m1,int16_t m2 ,int16_t m3,int16_t m4)
 {
 	static uint8_t pwm[8];
@@ -128,53 +128,53 @@ void control_pwm(int16_t m1,int16_t m2 ,int16_t m3,int16_t m4)
 }
 
 
-//��ȡ���ʱ��ı����������� 10ms��	Read the data of the encoder of relative time 10ms
+//Read the data of the encoder of relative time 10ms
 void read_10_encoder(void)
 {
 	static uint8_t buf[2];
 		
-	//M1���������������	M1 motor encoder data
+	//M1 motor encoder data
 	i2cRead(Motor_model_ADDR, READ_TEN_M1Enconer_REG, 2, buf);
 	Encoder_Offset[0] = buf[0]<<8|buf[1]; 
 	
-	//M2���������������	M2 motor encoder data
+	//M2 motor encoder data
 	i2cRead(Motor_model_ADDR, READ_TEN_M2Enconer_REG, 2, buf);
 	Encoder_Offset[1] = buf[0]<<8|buf[1];
 	
-	//M3���������������	M3 motor encoder data
+	//M3 motor encoder data
 	i2cRead(Motor_model_ADDR, READ_TEN_M3Enconer_REG, 2, buf);
 	Encoder_Offset[2] = buf[0]<<8|buf[1];
 	
-	//M4���������������	M4 motor encoder data
+	//M4 motor encoder data
 	i2cRead(Motor_model_ADDR, READ_TEN_M4Enconer_REG, 2, buf);
 	Encoder_Offset[3] = buf[0]<<8|buf[1];
 	
 }
 
-//��ȡ���ת���ı���������	Read the encoder data of the motor rotation
+//Read the encoder data of the motor rotation
 void read_all_encoder(void)
 {
 	static uint8_t buf[2];
 	static uint8_t buf2[2];
 	
-	//M1���������������	M1 motor encoder data
+	//M1 motor encoder data
 	i2cRead(Motor_model_ADDR, READ_ALLHigh_M1_REG, 2, buf);
 	i2cRead(Motor_model_ADDR, READ_ALLLOW_M1_REG, 2, buf2);
 	
 	Encoder_Now[0] = buf[0]<<24|buf[1]<<16|buf2[0]<<8|buf2[1]; 
 	
-	//M2���������������	M2 motor encoder data
+	//M2 motor encoder data
 	i2cRead(Motor_model_ADDR, READ_ALLHigh_M2_REG, 2, buf);
 	i2cRead(Motor_model_ADDR, READ_ALLLOW_M2_REG, 2, buf2);
 	Encoder_Now[1] = buf[0]<<24|buf[1]<<16|buf2[0]<<8|buf2[1];
 	
-	//M3���������������	M3 motor encoder data
+	//M3 motor encoder data
 	i2cRead(Motor_model_ADDR, READ_ALLHigh_M3_REG, 2, buf);
 	i2cRead(Motor_model_ADDR, READ_ALLLOW_M3_REG, 2, buf2);
 	Encoder_Now[2] = buf[0]<<24|buf[1]<<16|buf2[0]<<8|buf2[1];
 	
 	
-	//M4���������������	M4 motor encoder data
+	//M4 motor encoder data
 	i2cRead(Motor_model_ADDR, READ_ALLHigh_M4_REG, 2, buf);
 	i2cRead(Motor_model_ADDR, READ_ALLLOW_M4_REG, 2, buf2);
 	Encoder_Now[3] = buf[0]<<24|buf[1]<<16|buf2[0]<<8|buf2[1];
@@ -186,15 +186,15 @@ void init_motor_bsp(uint8_t motor_type)
 {
 	if(motor_type == 1)
 	{
-		set_motor_type(motor_type);//配置电机类型	Configure motor type
+		set_motor_type(motor_type);//Configure motor type
 		delay_ms(100);
-		set_pulse_phase(34);//配置减速比 查电机手册得出	Configure the reduction ratio. Check the motor manual to find out
+		set_pulse_phase(34);//Configure the reduction ratio. Check the motor manual to find out
 		delay_ms(100);
-		set_pulse_line(11);//配置磁环线 查电机手册得出	Configure the magnetic ring wire. Check the motor manual to get the result.
+		set_pulse_line(11);//Configure the magnetic ring wire. Check the motor manual to get the result.
 		delay_ms(100);
-		set_wheel_dia(67.00);//配置轮子直径,测量得出		Configure the wheel diameter and measure it
+		set_wheel_dia(67.00);//Configure the wheel diameter and measure it
 		delay_ms(100);
-		set_motor_deadzone(100);//配置电机死区,实验得出	Configure the motor dead zone, and the experiment shows
+		set_motor_deadzone(100);//Configure the motor dead zone, and the experiment shows
 		delay_ms(100);
 	} 
 	else if(motor_type == 2)
