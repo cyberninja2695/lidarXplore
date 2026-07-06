@@ -134,19 +134,19 @@ void read_10_encoder(void)
 	static uint8_t buf[2];
 		
 	//M1 motor encoder data
-	i2cRead(Motor_model_ADDR, READ_TEN_M1Enconer_REG, 2, buf);
+	i2cRead(Motor_model_ADDR, READ_TEN_M1Encoder_REG, 2, buf);
 	Encoder_Offset[0] = buf[0]<<8|buf[1]; 
 	
 	//M2 motor encoder data
-	i2cRead(Motor_model_ADDR, READ_TEN_M2Enconer_REG, 2, buf);
+	i2cRead(Motor_model_ADDR, READ_TEN_M2Encoder_REG, 2, buf);
 	Encoder_Offset[1] = buf[0]<<8|buf[1];
 	
 	//M3 motor encoder data
-	i2cRead(Motor_model_ADDR, READ_TEN_M3Enconer_REG, 2, buf);
+	i2cRead(Motor_model_ADDR, READ_TEN_M3Encoder_REG, 2, buf);
 	Encoder_Offset[2] = buf[0]<<8|buf[1];
 	
 	//M4 motor encoder data
-	i2cRead(Motor_model_ADDR, READ_TEN_M4Enconer_REG, 2, buf);
+	i2cRead(Motor_model_ADDR, READ_TEN_M4Encoder_REG, 2, buf);
 	Encoder_Offset[3] = buf[0]<<8|buf[1];
 	
 }

@@ -21,10 +21,10 @@ typedef enum __Motor_IIC_ADDR_
 	
 	
 	//Read Reg
-	READ_TEN_M1Enconer_REG = 0x10, //10ms real-time encoder reading M1
-	READ_TEN_M2Enconer_REG = 0x11, //10ms real-time encoder reading M2
-	READ_TEN_M3Enconer_REG = 0x12, //10ms real-time encoder reading M3
-	READ_TEN_M4Enconer_REG = 0x13, //10ms real-time encoder reading M4
+	READ_TEN_M1Encoder_REG = 0x10, //10ms real-time encoder reading M1
+	READ_TEN_M2Encoder_REG = 0x11, //10ms real-time encoder reading M2
+	READ_TEN_M3Encoder_REG = 0x12, //10ms real-time encoder reading M3
+	READ_TEN_M4Encoder_REG = 0x13, //10ms real-time encoder reading M4
 	
 	READ_ALLHigh_M1_REG = 0x20, //Read the total number of pulses of M1 High
 	READ_ALLLOW_M1_REG = 0x21, //Read the total number of pulses of M1 low
