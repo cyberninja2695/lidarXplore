@@ -25,7 +25,7 @@ OTAUpdater ota(ssid, password, versionUrl, firmwareUrl, rootCA, FIRMWARE_VERSION
 #define delay_ms(ms) vTaskDelay(pdMS_TO_TICKS(ms)) // FreeRTOS millisecond delay macro
 
 #define UPLOAD_DATA 2  //1: Receive total encoder data 2: Receive real-time encoder	   
-//#define MOTOR_TYPE 1   //1:520 motor 2:310 motor 3:speed code disc TT motor 4:TT DC reduction motor 5:L type 520 motor
+#define MOTOR_TYPE 1   //1:520 motor 2:310 motor 3:speed code disc TT motor 4:TT DC reduction motor 5:L type 520 motor
 
 void setup() {
 
@@ -41,7 +41,7 @@ void setup() {
 	
 	printf("please wait...\r\n");
 	
-	init_motor_bsp(1); //Initialize motor module, parameter: motor type
+	init_motor_bsp(MOTOR_TYPE); //Initialize motor module, parameter: motor type
 	delay_ms(100);
 
 	pid_pos_control(90,1,1,1); //PID position control test, parameters: target position (degree), Kp, Ki, Kd
