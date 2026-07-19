@@ -186,7 +186,7 @@ void init_motor_bsp(uint8_t motor_type)
 {
 	if(motor_type == 1)
 	{
-		set_motor_type(motor_type);//Configure motor type
+		set_motor_type(1);//Configure motor type
 		delay_ms(100);
 		set_pulse_phase(34);//Configure the reduction ratio. Check the motor manual to find out
 		delay_ms(100);
